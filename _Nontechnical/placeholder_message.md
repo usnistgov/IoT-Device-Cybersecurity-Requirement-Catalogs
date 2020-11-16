@@ -1,1 +1,1 @@
-Placehodler file for message about nontechnical content coming soon
+Non Technical Device Cybersecurity Capabilities will be updated soon
