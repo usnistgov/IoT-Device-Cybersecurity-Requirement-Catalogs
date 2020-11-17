@@ -1,6 +1,6 @@
 pdf:
   - basedir: ""
-    filename: Federal-Profile-of-8259A-Technical-Capabilities
+    filename: IoT-Device-Cybersecurity-Requirement-Catalogs
     template: _pdftemplate/template.tex
     workdir: _pdf
     graphics: 
