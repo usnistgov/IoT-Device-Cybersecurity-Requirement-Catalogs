@@ -1,7 +1,7 @@
 # Site settings
 title: Recommendations for IoT Device Manufacturers
-description: "Recommendations for IoT Device Manufacturers: Catalog of Features and Mitigations"
-baseurl: "/FederalProfile-8259A" # the subpath of your site, e.g. /blog
+description: "Recommendations for IoT Device Manufacturers: Catalog of Device Cybersecurity Capabilities"
+baseurl: "/IoT-Device-Cybersecurity-Requirement-Catalogs" # the subpath of your site, e.g. /blog
 
 # Build settings
 markdown: kramdown
