@@ -2,6 +2,7 @@
 layout: default
 title: "Recommendations for IoT Device Manufacturers"
 permalink: /technical/
+exclude: true
 ---
 
 # Technical Cybersecurity Capabilities Catalog
