@@ -2,14 +2,11 @@
 layout: default
 title: Device Security
 navOrder: 7
-navTitle: Security
+navTitle: Device Security
 permalink: /technical/security/
 ---
 
 # Device Security
-
-_See also the [non-technical counterpart to this section](../_Nontechnical/security.md)_
-{:latex-ignore="true"}
 
 ## Secure Execution 
 

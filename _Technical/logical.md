@@ -2,14 +2,11 @@
 layout: default
 title: Logical Access to Interfaces
 navOrder: 4
-navTitle: Logical
+navTitle:  Logical Access to Interfaces
 permalink: /technical/logical/
 ---
 
 # Logical Access to Interfaces
-
-_See also the [non-technical counterpart to this section](../_Nontechnical/logical.md)_
-{:latex-ignore="true"}
 
 ## Authentication and Identity Management
 
