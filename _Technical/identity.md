@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Device Identity
+title: Device Identification
 navOrder: 1
-navTitle: Identity
+navTitle: Identification
 permalink: /technical/identity/
 ---
 
-# Device Identity
+# Device Identification
 
 _See also the [non-technical counterpart to this section](../_Nontechnical/identity.md)_
 {:latex-ignore="true"}
@@ -20,7 +20,7 @@ Ability for device identification. Elements that may be necessary:
 - Ability to uniquely identify a remote IoT device.
 - Ability for the IoT device to support a unique device ID (e.g., to allow it to be linked to the person or process assigned to use the IoT device).
 
-## Actions Based on Device Identity
+## Actions Based on Device Identification
 
 Actions that can occur based on or using the identity of the device. Elements that may be necessary:
 
