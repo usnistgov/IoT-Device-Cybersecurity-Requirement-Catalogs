@@ -1,9 +1,7 @@
 ---
 layout: default
 title: "Recommendations for IoT Device Manufacturers"
-navOrder: 1
-navTitle: Technical Catalog
-permalink: /technical/overview/
+permalink: /technical/
 ---
 
 # Technical Cybersecurity Capabilities Catalog
