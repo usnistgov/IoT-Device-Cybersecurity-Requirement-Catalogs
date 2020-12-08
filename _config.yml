@@ -28,10 +28,10 @@ navigation:
   url: /
   collection: Frontmatter
 - text: Technical Capabilities
-  url: /technical/identity/
+  url: /technical/
   collection: Technical
 - text: Non-Technical Capabilities
-  url: /nontechnical/coming_soon/
+  url: /nontechnical/
   collection: Nontechnical
 - text: NIST Informative References
   url: /informative_references/

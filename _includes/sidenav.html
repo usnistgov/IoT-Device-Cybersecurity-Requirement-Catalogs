@@ -24,14 +24,14 @@
             
             <ul class="subnav">
             {% for p in pages %}
+              {% unless p.exclude %}
+              	{% assign scurrent = '' %}
+              	{% if page.url == p.url %}
+                	{% assign scurrent = 'active' %}
+              	{% endif %}
               
-              {% assign scurrent = '' %}
-              {% if page.url == p.url %}
-                {% assign scurrent = 'active' %}
-              {% endif %}
-              
-              <li class="{{ scurrent }}"><a href="{{ site.baseurl }}{{ p.url }}">{{ p.navTitle }}</a></li>
-              
+              	<li class="{{ scurrent }}"><a href="{{ site.baseurl }}{{ p.url }}">{{ p.navTitle }}</a></li>
+              {% endunless %}
             {% endfor %}
           
             </ul>
