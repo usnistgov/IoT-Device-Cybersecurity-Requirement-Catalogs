@@ -15,4 +15,4 @@ Internet of Things (IoT) devices may create new pathways in and out of the netwo
 
 Both device cybersecurity capabilities and non-technical supporting capabilities are vital to customer organizations’ ability to implement controls that the organization has allocated for their information systems. The figure below illustrates how device cybersecurity capabilities and non-technical supporting capabilities (grouped together as ‘Device Cybersecurity Requirements’) support system/organizational security capabilities, which in turn satisfy organizational security requirements.
 
-![Role of Device Cybersecurity and Non-Technical Supporting Capabilities in Satisfying Security Capabilities and Requirements](sp800-213fig3.png)
+![Role of Device Cybersecurity and Non-Technical Supporting Capabilities in Satisfying Security Capabilities and Requirements](images/sp800-213fig3.png)
