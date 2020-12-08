@@ -2,7 +2,7 @@
 layout: default
 title: Cybersecurity Event Awareness
 navOrder: 6
-navTitle: Cybersecuirty Event Awareness
+navTitle: Cybersecurity Event Awareness
 permalink: /technical/event/
 ---
 
