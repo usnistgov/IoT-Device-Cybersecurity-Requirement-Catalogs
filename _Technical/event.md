@@ -2,14 +2,11 @@
 layout: default
 title: Cybersecurity Event Awareness
 navOrder: 6
-navTitle: Event
+navTitle: Cybersecuirty Event Awareness
 permalink: /technical/event/
 ---
 
 # Cybersecurity Event Awareness
-
-_See also the [non-technical counterpart to this section](../_Nontechnical/event.md)_
-{:latex-ignore="true"}
 
 ## Access to Event Information
 
