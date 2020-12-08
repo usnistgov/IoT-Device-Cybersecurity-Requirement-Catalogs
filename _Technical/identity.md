@@ -2,14 +2,11 @@
 layout: default
 title: Device Identification
 navOrder: 1
-navTitle: Identification
+navTitle: Device Identification
 permalink: /technical/identity/
 ---
 
 # Device Identification
-
-_See also the [non-technical counterpart to this section](../_Nontechnical/identity.md)_
-{:latex-ignore="true"}
 
 ## Asset Identifier Support
 
