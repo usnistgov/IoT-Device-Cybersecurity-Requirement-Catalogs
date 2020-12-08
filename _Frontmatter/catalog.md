@@ -3,7 +3,7 @@ layout: default
 title: "Recommendations for IoT Device Manufacturers"
 navOrder: 3
 navTitle: Catalog
-permalink: /catalog
+permalink: /catalog/
 ---
 
 # The Catalog

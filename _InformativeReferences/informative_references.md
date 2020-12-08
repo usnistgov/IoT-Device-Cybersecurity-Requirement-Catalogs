@@ -12,3 +12,29 @@ The NIST Cybersecurity for IoT team has mapped the detailed device cybersecurity
 
 [**NIST Device Cybersecurity Catalog to Cybersecurity Framework**]({{site.baseurl}}/{{page.collection}}/files/NIST_Device_Cybersecurity_Catalog_to_CSF.xlsx)  
 [**NIST Device Cybersecurity Catalog to NIST SP 800-53 Rev 5**]({{site.baseurl}}/{{page.collection}}/files/NIST_IoT_Capabilities_Mapping_to_800-53(Rev5).xlsx)  
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
