@@ -35,7 +35,7 @@ This is a moderated platform. NIST reserves the right to reject, remove, or edit
 
 # Engage & How to Provide Feedback
 
-Share feedback and ask questions about resources in the repository using the Issues feature. [GitHub Page](https://github.com/usnistgov/FederalProfile-8259A)
+Share feedback and ask questions about resources in the repository using the Issues feature. [GitHub Page](https://github.com/usnistgov/IoT-Device-Cybersecurity-Requirement-Catalogs/)
 
 Instructions on how to use the Federal Profile GitHub page can be found here. [How To Use GitHub Guide](HowToUseGitHub.md)
 
