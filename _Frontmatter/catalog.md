@@ -21,8 +21,6 @@ This catalog identifies technical and non-technical capabilities necessary for a
 
 This catalog section presents a collection of IoT device technical cybersecurity capabilities that expand on the baseline set of capabilities defined in [NISTIR 8259A, _IoT Device Cybersecurity Capability Core Baseline_](https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8259A.pdf).  The NISTIR defines an IoT device cybersecurity capability core baseline, which is a set of device capabilities generally needed to support common cybersecurity controls that protect an organization’s devices as well as device data, systems, and ecosystems, providing a starting point to use in identifying the device cybersecurity capabilities for IoT devices. Device cybersecurity capabilities are cybersecurity features or functions that computing devices provide through their own technical means (i.e., device hardware and software). The seven device cybersecurity capabilities are:
 
-> **_Editor’s Note:_** _the capabilities labels below should be converted to links to the associated section of the catalog once the new version is published._
-
 * **Device Identification:** The IoT device can be uniquely identified logically and physically.
 
 * **Device Configuration:** The configuration of the IoT device’s software can be changed, and such changes can be performed by authorized entities only.
