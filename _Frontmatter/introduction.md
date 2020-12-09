@@ -15,6 +15,10 @@ Internet of Things (IoT) devices may create new pathways in and out of the netwo
 * Supporting Non-technical Capabilities are a set of non-technical supporting actions generally needed from manufacturers or other third parties to support common cybersecurity controls that protect an organization’s devices as well as device data, systems, and ecosystems. 
 
 Both device cybersecurity capabilities and supporting non-technical capabilities are vital to a customer organization’s ability to implement security controls that the organization has allocated for their information systems. Figure 1 illustrates how device cybersecurity capabilities and supporting non-technical capabilities (grouped together as ‘Device Cybersecurity Requirements’) support system/organizational security capabilities, which in turn satisfy organizational security requirements.
-
-![Role of Device Cybersecurity and Non-Technical Supporting Capabilities in Satisfying Security Capabilities and Requirements]({{site.baseurl}}/{{page.collection}}/images/relationships.png){:style="display: block; margin-left: auto; margin-right: auto; width: 50%;"}
-#### Figure 1: IoT Device Support for System Security
+  
+  
+  
+![Role of Device Cybersecurity and Non-Technical Supporting Capabilities in Satisfying Security Capabilities and Requirements]({{site.baseurl}}/{{page.collection}}/images/relationships.png){:style="display: block; margin-left: auto; margin-right: auto; padding: 5px; padding-right: 40px; width: 90%;"}
+  
+**Figure 1: IoT Device Support for System Security**
+{: style="text-align: center;"}
