@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "Recommendations for IoT Device Manufacturers"
-navOrder: 3
-navTitle: Catalog
+navOrder: 2
+navTitle: Catalog Overview
 permalink: /catalog/
 ---
 

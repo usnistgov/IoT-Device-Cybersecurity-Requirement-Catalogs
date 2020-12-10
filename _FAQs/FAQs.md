@@ -1,9 +1,8 @@
 ---
 layout: default
 title: "FAQs"
-navOrder: 1
-navTitle: FAQs
 permalink: /FAQs/
+exclude: true
 ---
 
 # FAQ

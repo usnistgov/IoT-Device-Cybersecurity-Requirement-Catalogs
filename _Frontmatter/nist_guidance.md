@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Recommendations for IoT Device Manufacturers"
-navOrder: 2
+navOrder: 1
 navTitle: NIST Guidance
 permalink: /nist-guidance/
 ---
