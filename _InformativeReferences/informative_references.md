@@ -1,9 +1,8 @@
 ---
 layout: default
 title: "NIST Informative References"
-navOrder: 1
-navTitle: Informative References
 permalink: /informative_references/
+exclude: true
 ---
 
 # NIST Informative References
