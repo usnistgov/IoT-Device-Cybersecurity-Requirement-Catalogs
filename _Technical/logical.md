@@ -56,7 +56,7 @@ Ability to restrict all unauthorized interactions.
  
 ## Authentication & Identity Management
  
--	Ability to establish access to the IoT device to perform organizationally-defined user actions without identification or authentication.
+Ability to establish access to the IoT device to perform organizationally-defined user actions without identification or authentication.
  
 ## Role Support & Management
  
