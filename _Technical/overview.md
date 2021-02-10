@@ -21,7 +21,7 @@ This catalog section presents a collection of IoT device technical cybersecurity
 
 * [**Software Update:**]({{site.baseurl}}{%link _Technical/update.md %}) The IoT device’s software can be updated by authorized entities only using a secure and configurable mechanism.
 
-* [**Cybersecurity Event Awareness:**]({{site.baseurl}}{%link _Technical/event.md %}) The IoT device can report on its cybersecurity state and make that information accessible to authorized entities only.
+* [**Cybersecurity State Awareness:**]({{site.baseurl}}{%link _Technical/state.md %}) The IoT device can report on its cybersecurity state and make that information accessible to authorized entities only.
 
 * [**Device Security:**]({{site.baseurl}}{%link _Technical/security.md %}) The IoT device can operate securely by protecting its hardware and software integrity and securely utilizing system resources, managing communications, and executing code
 
