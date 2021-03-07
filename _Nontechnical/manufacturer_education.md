@@ -83,7 +83,7 @@ The education content should ultimately address the needs for IoT device custome
  Manufacturers and/or their supporting entities can provide education and associated supporting materials to IoT device customers describing the key assumptions for how the IoT device will be used, the needed types of physical, administrative and systems security controls that are expected to be implemented to support the strongest security for the IoT device, and the expectations the manufacturer has related to the use of the IoT device, and related impacts to security risks for which the IoT customer needs to be aware. This section of capabilities includes examples of such non-technical education that manufacturers can provide to make the IoT customer aware of expectations and assumptions for how the customer will use the device.
 
   **a. Device Assumptions and Expectations**<br/>
-   1. **Device Security:**** Provide education ****that clearly describes the assumptions and expectations for how the IoT device customers will manage risk for the IoT device.**<br/><br/>
+   1. **Device Security: Provide education that clearly describes the assumptions and expectations for how the IoT device customers will manage risk for the IoT device.**<br/><br/>
     Information that may be necessary to provide include details and actions such as:
       - Providing education explaining the responsibilities of IoT device customers to perform their own risk assessments using the information provided by the manufacturer, to determine the risks the IoT device will bring into the IoT device customer&#39;s systems.
 
