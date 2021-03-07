@@ -1,4 +1,12 @@
-# **C). Information Dissemination – From the Manufacturer and/or Supporting Entity**
+---
+layout: default
+title: Manufacturer Information Dissemination
+navOrder: 4
+navTitle: Manufacturer Information Dissemination
+permalink: /nontechnical/manufacturer_information/
+---
+
+# C). Information Dissemination – From the Manufacturer and/or Supporting Entity
 
 **The ability for the manufacturer and/or supporting entity to broadcast and distribute information related to cybersecurity of the IoT device.**
 
