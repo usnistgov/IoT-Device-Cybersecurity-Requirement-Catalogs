@@ -1,3 +1,10 @@
+---
+layout: default
+title: Manufacturer Information and Query Reception
+navOrder: 3
+navTitle: Manufacturer Information and Query Reception
+permalink: /nontechnical/manufacturer_query/
+---
 
 # B.) Manufacturer Information and Query Reception
 
