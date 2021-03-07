@@ -1,4 +1,12 @@
-# **Introduction**
+---
+layout: default
+title: Introduction
+navOrder: 1
+navTitle: Introduction
+permalink: /nontechnical/introduction/
+---
+
+# Introduction
 
 Non-technical supporting capabilities include the actions manufacturers or their supporting entities take in support of initial and on-going security of IoT devices. Such actions make it easier for customers to understand and identify how IoT devices are built to meet their cybersecurity needs, as well as the manufacturers&#39; goals for how the IoT device should be securely used. The non-technical cybersecurity capabilities described can support cybersecurity-related customer efforts. By making customers more knowledgeable about how to secure the IoT devices, and how to most effectively use the device&#39;s cybersecurity capabilities, manufacturers can help reduce the number of occurrences and related severity of IoT device compromises, thwart attacks against the devices, and reduce the number of vulnerabilities that are exploited and lead to compromised devices.
 
