@@ -10,11 +10,11 @@ Customer organizations may need to know the security practices of the manufactur
 
 Customer organizations can use the associated documentation to support their evaluation of the adequacy of the security provided by the manufacturer and/or supporting entities and related IoT device. Customer organizations who must ensure IoT devices comply with the associated laws and regulations for which they are covered can use the documentation to support their IoT purchase decisions and risk assessments.
 
-## 1. The procedures to support the ability for the manufacturer and/or supporting entity to alert customers of the IoT device about cybersecurity relevant information.  <br/><br/>
+## 1. The procedures to support the ability for the manufacturer and/or supporting entity to alert customers of the IoT device about cybersecurity relevant information.  <br/>
   This section of capabilities includes non-technical communications and actions that manufacturers can provide to alert IoT device customers about cybersecurity    information relevant to the IoT device. These capabilities support on-going cybersecurity of the device by keeping customers informed of developments and new information after the initial documentation was developed and provided. Customer organizations may need to be informed about cybersecurity-related activities on the IoT device, especially if the IoT device is critical to their operations.  <br/><br/>
   Manufacturers and/or their supporting entities can provide security alerts, advisories and other types of information, such as those provided as examples in the section, to IoT device customers to maintain situational awareness throughout the IoT device customer&#39;s system.
   
- **a. Software update availability or application** <br/><br/>
+ **a. Software update availability or application** <br/>
    1. **Data Protection: Establish communications with the details necessary for maintaining IoT device data integrity during software modifications.**  <br/><br/>
     Information that may be necessary to provide about maintaining data integrity during software modifications include details and actions such as: 
       - Providing details for how to review and update the IoT device and associated systems while preserving data integrity. 
