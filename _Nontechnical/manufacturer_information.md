@@ -20,23 +20,23 @@ Customer organizations can use the associated documentation to support their eva
 
   1. **Data Protection: Establish communications with the details necessary for maintaining IoT device data integrity during software modifications.**
 
-   >>Information that may be necessary to provide about maintaining data integrity during software modifications include details and actions such as: 
+   Information that may be necessary to provide about maintaining data integrity during software modifications include details and actions such as: 
    - Providing details for how to review and update the IoT device and associated systems while preserving data integrity.
-     - _Examples:_
-       - _IoT device customers often need details from IoT device manufacturers to comply with their applicable security policies and legal requirements for reviewing and updating the current IoT device and associated systems to preserve data integrity._
-       - _The manufacturer can provide instructions for how to create backups of the data prior to performing updates, and then how to do a comparison of the data in the device after the update with the backup data to ensure data integrity._
+    - _Examples:_
+     - _IoT device customers often need details from IoT device manufacturers to comply with their applicable security policies and legal requirements for reviewing and updating the current IoT device and associated systems to preserve data integrity._
+     - _The manufacturer can provide instructions for how to create backups of the data prior to performing updates, and then how to do a comparison of the data in the device after the update with the backup data to ensure data integrity._
    - Providing information detailing the trigger events that will result in automated updates to the IoT devices, or will indicate the need for a manual update.
    - Providing communications with details about updates and possible impacts to IoT device data integrity (e.g., alerting users if an update will delete data).
 
   2. **Software Update: Establish communications with the details necessary to meet customer requirements for software updates for flaw remediation and security-relevant reasons.**
 
-  >>Information that may be necessary to provide include details and actions such as: 
+  Information that may be necessary to provide include details and actions such as: 
   - Providing details for performing the tests necessary for IoT device and related system software updates related to flaw remediation, for effectiveness and to identify potential side effects before installation.
   - Providing communications describing the types of security and privacy tests necessary for the IoT device and software before installation.
   - Providing the details necessary for the installation of IoT devices and associated systems security-relevant software updates within an organizationally-defined time period from the vendor release of the updates.
-    - _Examples:_
-      - _Providing information to IoT device customers and stakeholders regarding the criticality of IoT device software and hardware updates, and the recommended time period within which the update should be installed._
-      - _Communicating to IoT device customers and other stakeholders the IoT device system environment dependencies and/or potential impacts for the updates._
+   - _Examples:_
+    - _Providing information to IoT device customers and stakeholders regarding the criticality of IoT device software and hardware updates, and the recommended time period within which the update should be installed._
+    - _Communicating to IoT device customers and other stakeholders the IoT device system environment dependencies and/or potential impacts for the updates._
 
  **b. End of term of support or functionality for the IoT device**
 
@@ -44,9 +44,9 @@ Customer organizations can use the associated documentation to support their eva
 
    Such information is important for security risk mitigations since when manufacturers and/or their supporting entities no longer provide critical software patches, this provides a substantial opportunity for adversaries to exploit new weaknesses discovered in the currently installed IoT devices. Information that may be necessary to provide include details and actions such as: 
    - Providing information with the details necessary to determine exceptions and/or alternatives to replacing unsupported IoT devices.
-     - _Example: Possible exceptions may include IoT devices that provide critical mission/business capability where newer IoT devices are not available or where the IoT devices are so isolated that installing a replacement IoT device is not an option._
+    - _Example: Possible exceptions may include IoT devices that provide critical mission/business capability where newer IoT devices are not available or where the IoT devices are so isolated that installing a replacement IoT device is not an option._
    - Providing information to allow for in-house support from within the IoT device customer organization.
-     - _Example: IoT device customers can establish in-house support by developing customized patches for critical software components or securing the services of external providers who, through contractual relationships, provide ongoing support for the designated unsupported IoT devices. Such contractual relationships can include, for example, those supporting entities that were used by the IoT device manufacturer._
+    - _Example: IoT device customers can establish in-house support by developing customized patches for critical software components or securing the services of external providers who, through contractual relationships, provide ongoing support for the designated unsupported IoT devices. Such contractual relationships can include, for example, those supporting entities that were used by the IoT device manufacturer._
    - Providing information with the details describing service contract completion and the situations that define the end of the system integrator or external service provider relationship. This is important to know for re-compete, potential changes in providers, and also to manage system end-of-device-life processes.
 
 
@@ -64,7 +64,7 @@ Customer organizations can use the associated documentation to support their eva
 
    Information that may be necessary to support alerts, advisories and directives include details and actions such as: 
    - Providing information with the details necessary to implement management and operational controls for how and when IoT device customers will receive up-to-date security and privacy information from the manufacturer, or supporting entity.
-     - _Example: Information may be provided to the IoT device customer on an ongoing basis about IoT devices and associated systems, such as information system security alerts, advisories. There may also be directives to take actions for the device issued from IoT device manufacturers, information security researchers, and other sources the organization determines to be valuable to receive from the manufacturer._
+    - _Example: Information may be provided to the IoT device customer on an ongoing basis about IoT devices and associated systems, such as information system security alerts, advisories. There may also be directives to take actions for the device issued from IoT device manufacturers, information security researchers, and other sources the organization determines to be valuable to receive from the manufacturer._
    - Providing information with the details and instructions necessary to receive the manufacturer&#39;s security and privacy updates, such as IoT device information system security and privacy alerts, advisories, directives, security and/or privacy research, and other information that would be valuable for IoT device customers to help ensure security and privacy of the IoT device.
    - Providing information to IoT device customers to inform them when to review and update the IoT device systems, based upon specific device states, and to provide a description of the services practices.
 
@@ -73,9 +73,9 @@ Customer organizations can use the associated documentation to support their eva
    Information that may be necessary to provide for such updates and services include details and actions such as: 
    - Providing the instructions for following the manufacturer&#39;s updates to the IoT device, systems and services acquisition practices.
    - Providing the details necessary for IoT device customers to document attempts to obtain IoT device components, or IoT device system service information when such information is either unavailable or nonexistent, and documenting the appropriate response for the manufacturer&#39;s employees to follow.
-     - _Examples:_
-       - _Providing IoT device customers with procedures detailing how to submit questions about IoT device parts, use, and other related issues._
-       - _Describing how to get components for the IoT device, or how to get the IoT device fixed, when necessary._
+    - _Examples:_
+     - _Providing IoT device customers with procedures detailing how to submit questions about IoT device parts, use, and other related issues._
+     - _Describing how to get components for the IoT device, or how to get the IoT device fixed, when necessary._
 
   3. **Device Security: Establish communications with the details necessary for performing periodic IoT device security checks and/or audits.**
 
@@ -93,11 +93,11 @@ Customer organizations can use the associated documentation to support their eva
 
    Information that may be necessary to provide include details and actions such as: 
    - Providing communications for cybersecurity related events involving or related to the IoT device.
-     - _Examples:_
-       - _Compromises of the IoT device, and associated information systems and supply chain entities._
-       - _Changes or updates to IoT device roadmaps, new component development, updates to components, end-of-life decisions._
-       - _The addition, replacement, and removal of IoT device personnel supporting the IoT device and supply chain infrastructure changes related to IoT device support and use._
-       - _Infrastructure changes within the manufacturer&#39;s supporting entities, such as any new operating system rollout, hardware upgrades, or replacements due to field failures, or data storage architecture changes._
+    - _Examples:_
+     - _Compromises of the IoT device, and associated information systems and supply chain entities._
+     - _Changes or updates to IoT device roadmaps, new component development, updates to components, end-of-life decisions._
+     - _The addition, replacement, and removal of IoT device personnel supporting the IoT device and supply chain infrastructure changes related to IoT device support and use._
+     - _Infrastructure changes within the manufacturer&#39;s supporting entities, such as any new operating system rollout, hardware upgrades, or replacements due to field failures, or data storage architecture changes._
 
  **b. Breaches in customer IoT devices and instructions for making associated fixes or actions to prevent similar breaches of other devices.**
 
