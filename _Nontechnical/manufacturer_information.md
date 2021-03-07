@@ -6,7 +6,7 @@ navTitle: Manufacturer Information Dissemination
 permalink: /nontechnical/manufacturer_information/
 ---
 
-# C). Information Dissemination – From the Manufacturer and/or Supporting Entity
+# C. &nbsp;&nbsp;&nbsp;Information Dissemination – From the Manufacturer and/or Supporting Entity
 
 **The ability for the manufacturer and/or supporting entity to broadcast and distribute information related to cybersecurity of the IoT device.**
 
@@ -18,7 +18,7 @@ Customer organizations may need to know the security practices of the manufactur
 
 Customer organizations can use the associated documentation to support their evaluation of the adequacy of the security provided by the manufacturer and/or supporting entities and related IoT device. Customer organizations who must ensure IoT devices comply with the associated laws and regulations for which they are covered can use the documentation to support their IoT purchase decisions and risk assessments.
 
-## 1). The procedures to support the ability for the manufacturer and/or supporting entity to alert customers of the IoT device about cybersecurity relevant information.  <br/>
+## 1). &nbsp;&nbsp;The procedures to support the ability for the manufacturer and/or supporting entity to alert customers of the IoT device about cybersecurity relevant information.  <br/>
   This section of capabilities includes non-technical communications and actions that manufacturers can provide to alert IoT device customers about cybersecurity    information relevant to the IoT device. These capabilities support on-going cybersecurity of the device by keeping customers informed of developments and new information after the initial documentation was developed and provided. Customer organizations may need to be informed about cybersecurity-related activities on the IoT device, especially if the IoT device is critical to their operations.  <br/><br/>
   Manufacturers and/or their supporting entities can provide security alerts, advisories and other types of information, such as those provided as examples in the section, to IoT device customers to maintain situational awareness throughout the IoT device customer&#39;s system.
   
@@ -74,7 +74,7 @@ Customer organizations can use the associated documentation to support their eva
      - Providing the details requested by IoT device customersto perform periodic checks and/or audits to ensure IoT device security controls are functioning as intended following maintenance and repairs.
      - Providing IoT device customers, upon their request, with the tools, assistance, instructions, and other support for the IoT device to perform audit and log maintenance and repairs operations.
 
-## 2). The procedures to support the ability for the manufacturer and/or supporting entity to notify customers of cybersecurity related events and information related to an IoT device throughout the support lifecycle.
+## 2). &nbsp;&nbsp;The procedures to support the ability for the manufacturer and/or supporting entity to notify customers of cybersecurity related events and information related to an IoT device throughout the support lifecycle.
 
  A well-defined manufacturer cybersecurity support life cycle provides the foundation for the successful and secure implementation and operation of IoT devices within customer systems. Customer organizations will want to stay informed about the cybersecurity of IoT devices throughout the lifetime of the device to allow them to fine tune their mitigations and maintain an adequate level of risk assurance. This section of capabilities includes non-technical communications and actions that manufacturers can provide to alert IoT device customers about cybersecurity information relevant to the IoT device to enable IoT device customers to have the most effective security controls for the IoT device throughout the entire life of the device.
 
