@@ -22,7 +22,7 @@ Customer organizations can use the associated documentation to support their eva
           - _IoT device customers often need details from IoT device manufacturers to comply with their applicable security policies and legal requirements for reviewing and updating the current IoT device and associated systems to preserve data integrity._
           - _The manufacturer can provide instructions for how to create backups of the data prior to performing updates, and then how to do a comparison of the data in the device after the update with the backup data to ensure data integrity._ 
       - Providing information detailing the trigger events that will result in automated updates to the IoT devices, or will indicate the need for a manual update. 
-      - Providing communications with details about updates and possible impacts to IoT device data integrity (e.g., alerting users if an update will delete data).<br/>
+      - Providing communications with details about updates and possible impacts to IoT device data integrity (e.g., alerting users if an update will delete data).<br/><br/>
    2. **Software Update: Establish communications with the details necessary to meet customer requirements for software updates for flaw remediation and security-relevant reasons.**<br/><br/>
     Information that may be necessary to provide include details and actions such as: 
       - Providing details for performing the tests necessary for IoT device and related system software updates related to flaw remediation, for effectiveness and to identify potential side effects before installation.
@@ -53,14 +53,14 @@ Customer organizations can use the associated documentation to support their eva
      - Providing information with the details necessary to implement management and operational controls for how and when IoT device customers will receive up-to-date security and privacy information from the manufacturer, or supporting entity.
        - _Example: Information may be provided to the IoT device customer on an ongoing basis about IoT devices and associated systems, such as information system security alerts, advisories. There may also be directives to take actions for the device issued from IoT device manufacturers, information security researchers, and other sources the organization determines to be valuable to receive from the manufacturer._
      - Providing information with the details and instructions necessary to receive the manufacturer&#39;s security and privacy updates, such as IoT device information system security and privacy alerts, advisories, directives, security and/or privacy research, and other information that would be valuable for IoT device customers to help ensure security and privacy of the IoT device.
-     - Providing information to IoT device customers to inform them when to review and update the IoT device systems, based upon specific device states, and to provide a description of the services practices.
+     - Providing information to IoT device customers to inform them when to review and update the IoT device systems, based upon specific device states, and to provide a description of the services practices.<br/><br/>
   2. **Device Acquisition and Maintenance: Establish communications notifying IoT device customers they should review and update the IoT device, systems and services acquisition practices.**<br/><br/>
    Information that may be necessary to provide for such updates and services include details and actions such as: 
      - Providing the instructions for following the manufacturer&#39;s updates to the IoT device, systems and services acquisition practices.
      - Providing the details necessary for IoT device customers to document attempts to obtain IoT device components, or IoT device system service information when such information is either unavailable or nonexistent, and documenting the appropriate response for the manufacturer&#39;s employees to follow.
        - _Examples:_
          - _Providing IoT device customers with procedures detailing how to submit questions about IoT device parts, use, and other related issues._
-         - _Describing how to get components for the IoT device, or how to get the IoT device fixed, when necessary._
+         - _Describing how to get components for the IoT device, or how to get the IoT device fixed, when necessary._<br/><br/>
   3. **Device Security: Establish communications with the details necessary for performing periodic IoT device security checks and/or audits.**<br/><br/>
    Information that may be necessary to provide about performing security checks and audits include details and actions such as: 
      - Providing the details requested by IoT device customersto perform periodic checks and/or audits to ensure IoT device security controls are functioning as intended following maintenance and repairs.
