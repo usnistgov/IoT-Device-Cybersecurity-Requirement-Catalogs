@@ -123,6 +123,6 @@ The education content should ultimately address the needs for IoT device custome
        - _Examples: shutting down the device; redirecting the network traffic; sending alerts; logging the events; etc._
      - Providing education that include the details necessary to implement management and operational controls for malicious code detection and eradication.<br/><br/>
   2. **Software Update: Provide education explaining and/or showing how to incorporate IoT device flaw remediation into the customer&#39;s configuration management process.**<br/><br/>
- Education and supporting materials that may be necessary to provide include details and actions such as:
-   - Providing the education explaining how to incorporate IoT device flaw remediation into the IoT device customer&#39;s organizationally-defined configuration management process.
-   - Providing the education explaining the processes that the manufacturer, or supporting entities, will follow to communicate the IoT device remediation efforts with stakeholders (IoT device customers, users, etc.).
+   Education and supporting materials that may be necessary to provide include details and actions such as:
+     - Providing the education explaining how to incorporate IoT device flaw remediation into the IoT device customer&#39;s organizationally-defined configuration management process.
+     - Providing the education explaining the processes that the manufacturer, or supporting entities, will follow to communicate the IoT device remediation efforts with stakeholders (IoT device customers, users, etc.).
