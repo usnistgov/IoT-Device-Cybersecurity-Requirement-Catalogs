@@ -1,3 +1,11 @@
+---
+layout: default
+title: Manufacturer Education
+navOrder: 5
+navTitle: Manufacturer Education
+permalink: /nontechnical/manufacturer_education/
+---
+
 # D.) Education and Awareness from Manufacturers/Supporting Entities
 
 **The ability for the manufacturer and/or supporting entity to create awareness of, and educate IoT device customers about, cybersecurity-related information, considerations, features, and other information related to reducing the risks created by the IoT device being implemented within the IoT customer&#39;s digital ecosystem.**
