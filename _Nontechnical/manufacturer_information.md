@@ -20,7 +20,7 @@ Customer organizations can use the associated documentation to support their eva
 
   1. **Data Protection: Establish communications with the details necessary for maintaining IoT device data integrity during software modifications.**
 
-  Information that may be necessary to provide about maintaining data integrity during software modifications include details and actions such as:
+   Information that may be necessary to provide about maintaining data integrity during software modifications include details and actions such as:
 
    - Providing details for how to review and update the IoT device and associated systems while preserving data integrity.
      - _Examples:_
@@ -33,7 +33,7 @@ Customer organizations can use the associated documentation to support their eva
 
   2. **Software Update: Establish communications with the details necessary to meet customer requirements for software updates for flaw remediation and security-relevant reasons.**
 
-    Information that may be necessary to provide include details and actions such as:
+   Information that may be necessary to provide include details and actions such as:
 
   - Providing details for performing the tests necessary for IoT device and related system software updates related to flaw remediation, for effectiveness and to identify potential side effects before installation.
 
@@ -48,7 +48,7 @@ Customer organizations can use the associated documentation to support their eva
 
   1. **Unsupported IoT Device: Establish communications describing the security impacts of using the IoT device when the manufacturer no longer supports or provides functionality for the IoT device.**
 
-    Such information is important for security risk mitigations since when manufacturers and/or their supporting entities no longer provide critical software patches, this provides a substantial opportunity for adversaries to exploit new weaknesses discovered in the currently installed IoT devices. Information that may be necessary to provide include details and actions such as:
+   Such information is important for security risk mitigations since when manufacturers and/or their supporting entities no longer provide critical software patches, this provides a substantial opportunity for adversaries to exploit new weaknesses discovered in the currently installed IoT devices. Information that may be necessary to provide include details and actions such as:
 
    - Providing information with the details necessary to determine exceptions and/or alternatives to replacing unsupported IoT devices.
      - _Example: Possible exceptions may include IoT devices that provide critical mission/business capability where newer IoT devices are not available or where the IoT devices are so isolated that installing a replacement IoT device is not an option._
@@ -63,7 +63,7 @@ Customer organizations can use the associated documentation to support their eva
 
   1. **Cybersecurity State Awareness: Establish communications with the details for responding to privacy and security and maintenance alerts, advisories, and directives from outside of their organization.**
 
-    Information that may be necessary to provide include details and actions such as:
+   Information that may be necessary to provide include details and actions such as:
 
    - Providing information with the details necessary to disseminate privacy and security alerts, advisories, and directives about the IoT devices, and associated systems and then take the necessary actions.
 
@@ -73,7 +73,7 @@ Customer organizations can use the associated documentation to support their eva
 
   1. **Cybersecurity State Awareness: Establish communications with information necessary for IoT device customers to receive the manufacturer&#39;s external and internal security alerts, advisories, and directives.**
 
-    Information that may be necessary to support alerts, advisories and directives include details and actions such as:
+   Information that may be necessary to support alerts, advisories and directives include details and actions such as:
 
    - Providing information with the details necessary to implement management and operational controls for how and when IoT device customers will receive up-to-date security and privacy information from the manufacturer, or supporting entity.
      - _Example: Information may be provided to the IoT device customer on an ongoing basis about IoT devices and associated systems, such as information system security alerts, advisories. There may also be directives to take actions for the device issued from IoT device manufacturers, information security researchers, and other sources the organization determines to be valuable to receive from the manufacturer._
@@ -95,7 +95,7 @@ Customer organizations can use the associated documentation to support their eva
 
   3. **Device Security: Establish communications with the details necessary for performing periodic IoT device security checks and/or audits.**
 
-    Information that may be necessary to provide about performing security checks and audits include details and actions such as:
+   Information that may be necessary to provide about performing security checks and audits include details and actions such as:
 
    - Providing the details requested by IoT device customersto perform periodic checks and/or audits to ensure IoT device security controls are functioning as intended following maintenance and repairs.
 
@@ -109,7 +109,7 @@ Customer organizations can use the associated documentation to support their eva
 
   1. **Device Security: Establish communications to notify customers of cybersecurity related events throughout the full time that the IoT device is in use.**
 
-    Information that may be necessary to provide include details and actions such as:
+   Information that may be necessary to provide include details and actions such as:
 
    - Providing communications for cybersecurity related events involving or related to the IoT device.
      - _Examples:_
