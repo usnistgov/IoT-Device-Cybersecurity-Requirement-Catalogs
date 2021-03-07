@@ -226,7 +226,7 @@ The term &quot;establish communications&quot; is used throughout this section to
    Information that may be necessary to provide include details and actions such as:
      - Providing the details necessary for IoT device customers to monitor IoT devices and associated systems.
      - Providing documentation to IoT device customers describing how to perform monitoring activities.
-       _Examples:_
+       - _Examples:_
          - _Describing all the ways in which the IoT device can be monitored, and the recommended associated tools to perform monitoring._
          - _Describing the indicators of attacks on the IoT device._
          - _Describing how to identify local, network and remote IoT device access attempts and connections._
