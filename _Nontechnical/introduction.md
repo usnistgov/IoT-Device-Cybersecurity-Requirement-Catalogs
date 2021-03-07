@@ -35,13 +35,13 @@ For assistance in determining risks created by IoT devices, manufacturers and th
 
 The IoT Cybersecurity Manufacturer Non-Technical Supporting Capabilities catalog is structured as follows:
 
-<div style="margin-left: 200px;">
+<div align="center">
  
 **A. Documentation from the Manufacturer**
 
 1. **Document assumptions made during the development process and other expectations related to the IoT device.**
  
-2. **Document the cybersecurity capabilities, such as those detailed within NISTIR 8259A and within the full IoT cybersecurity technical catalog, that are implemented within the IoT device, and how to configure and use them.** 
+2. **Document the cybersecurity capabilities, such as those detailed within NISTIR 8259A and within the full IoT cybersecurity technical catalog, that are  implemented within the IoT device, and how to configure and use them.** 
 
 3. **Document design and support considerations related to the IoT device.** 
 
