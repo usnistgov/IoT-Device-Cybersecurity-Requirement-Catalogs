@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Manufacturer Education
+title: Manufacturer Education & Awareness
 navOrder: 5
-navTitle: Manufacturer Education
+navTitle: Manufacturer Education & Awareness
 permalink: /nontechnical/manufacturer_education/
 ---
 
