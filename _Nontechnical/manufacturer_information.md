@@ -20,7 +20,7 @@ Customer organizations can use the associated documentation to support their eva
 
   1. **Data Protection: Establish communications with the details necessary for maintaining IoT device data integrity during software modifications.**
 
-   Information that may be necessary to provide about maintaining data integrity during software modifications include details and actions such as: 
+   >>Information that may be necessary to provide about maintaining data integrity during software modifications include details and actions such as: 
    - Providing details for how to review and update the IoT device and associated systems while preserving data integrity.
      - _Examples:_
        - _IoT device customers often need details from IoT device manufacturers to comply with their applicable security policies and legal requirements for reviewing and updating the current IoT device and associated systems to preserve data integrity._
@@ -30,7 +30,7 @@ Customer organizations can use the associated documentation to support their eva
 
   2. **Software Update: Establish communications with the details necessary to meet customer requirements for software updates for flaw remediation and security-relevant reasons.**
 
-   Information that may be necessary to provide include details and actions such as: 
+  >>Information that may be necessary to provide include details and actions such as: 
   - Providing details for performing the tests necessary for IoT device and related system software updates related to flaw remediation, for effectiveness and to identify potential side effects before installation.
   - Providing communications describing the types of security and privacy tests necessary for the IoT device and software before installation.
   - Providing the details necessary for the installation of IoT devices and associated systems security-relevant software updates within an organizationally-defined time period from the vendor release of the updates.
