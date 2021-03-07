@@ -6,7 +6,7 @@ navTitle: Manufacturer Documentation
 permalink: /nontechnical/manufacturer_documentation/
 ---
 
-# A.) Documentation from the Manufacturer
+# A. &nbsp;&nbsp;&nbsp;Documentation from the Manufacturer
 
 **The ability for the manufacturer and/or the manufacturer&#39;s supporting entity, to create, gather, disseminate, and store information relevant to cybersecurity of the IoT device prior to customer purchase, and throughout the development of a device and its subsequent lifecycle.**
 
@@ -22,7 +22,7 @@ This section of capabilities includes non-technical communications and actions t
 
 The term &quot;establish communications&quot; is used throughout this section to mean developing, documenting, implementing, distributing/providing, and maintaining the documentation and performing the actions involved with the non-technical capabilities.
 
-## 1). Document assumptions made during the development process and other expectations related to the IoT device.<br/>
+## 1). &nbsp;&nbsp;Document assumptions made during the development process and other expectations related to the IoT device.<br/>
  This section of capabilities includes non-technical communications and actions that manufacturers can provide IoT device customers to help them understand the manufacturer&#39;s assumptions made during development about how their customers would use the device, and the expectations for the security controls the customers would implement for the device, both technical and the non-technical controls beyond the technical device capabilities. This documentation will provide important information to the IoT device customer describing the additional actions the customer needs to take related to implementing the IoT device based upon the assumptions and expectations the manufacturer has for their customers.
 
  **a. Expected customers and use cases**
@@ -213,7 +213,7 @@ The term &quot;establish communications&quot; is used throughout this section to
      - Providing a detailed description for how third parties are, or can be, prohibited by the IoT device customers from accessing the IoT device and/or restricted in their access to the device.
      - Providing a detailed description for the ways in which the manufacturer and/or the manufacturer&#39;s listed supporting entities, will be accessing and making modifications to the IoT device throughout the expected or typical lifespan of the IoT device.
      - Providing a description to Federal agencies for how the IoT device supports the Federal Risk and Authorization Management Program (FedRAMP) requirements.<br/><br/>
-## 2.) Document the technical cybersecurity capabilities, such as those detailed within NISTIR 8259A**** and within the full IoT cybersecurity technical catalog, that are implemented within the IoT device and how to configure and use them.<br/>
+## 2.) &nbsp;&nbsp;Document the technical cybersecurity capabilities, such as those detailed within NISTIR 8259A**** and within the full IoT cybersecurity technical catalog, that are implemented within the IoT device and how to configure and use them.<br/>
  NISTIR 8259A discusses technical device cybersecurity capabilities, which are cybersecurity features or functions that computing devices provide through their own technical means (i.e., device hardware and software), and establishes a core baseline of device cybersecurity capabilities needed by many IoT device customers. This section of capabilities includes non-technical communications and actions to explain how to most effectively use the technical abilities of an IoT device. Such information will help IoT device customers understand how to configure and implement the technical IoT device cybersecurity capabilities to limit the risks the IoT device brings to their systems. It will also help IoT device customers to comply with their associated legal requirements, and support their organizational purchasing requirements.
 
  **a. Monitoring, diagnostics and legal requirements**<br/>
@@ -248,7 +248,7 @@ The term &quot;establish communications&quot; is used throughout this section to
      - Providing details for how to establish unique identification for each IoT device associated with the system and critical system components within which it is used.
        - _Example: IoT device customers must often comply with their applicable organizational security policies and legal requirements for using unique identification for each IoT device associated with the system and critical system components within which it is used._
 
-## 3.) Document device design and support considerations related to the IoT device.<br/>
+## 3.) &nbsp;&nbsp;Document device design and support considerations related to the IoT device.<br/>
  This section of capabilities includes documentation describing the design of the device and associated cybersecurity capabilities, such as how IoT platforms were used in the development of the device. This section also provides details about the support for secure use of the IoT device by customers that will be necessary, including documentation for the supporting entities involved with support activities throughout the manufacturer&#39;s supply chain. Such documentation may also be important to meet the organization&#39;s purchasing requirements, to support audits, or to qualify for specific certifications that some customers may require for IoT devices they use.
 
  **a. IoT platform used in the development of the IoT device, and related documentation**<br/>
@@ -297,7 +297,7 @@ The term &quot;establish communications&quot; is used throughout this section to
           - _Manufacturers providing a copy of their supply chain and/or third-party security assessment and oversight management policies, authorization policies and procedures for supply chain entities, and other similar types of policies and procedures._
       - Providing documentation describing the types of security and/or privacy certifications the manufacturer requires of their supporting entities.
 
-## 4.) Document maintenance requirements for the IoT device.<br/>
+## 4.) &nbsp;&nbsp;Document maintenance requirements for the IoT device.<br/>
  Documentation about maintenance requirements, especially involving supporting entities the manufacturer contracted to perform maintenance, device changes, etc., supports the customer&#39;s need to adequately plan for maintenance activities. This section of capabilities includes non-technical communications and actions that manufacturers provide to support the need for IoT customers to perform common and minimum necessary technical maintenance activities consistently, accurately, and most securely. Such documentation may also be necessary to meet the organization&#39;s purchasing requirements, security policies, to support audits, or to qualify for specific certifications that some customers may require for IoT devices they use.
 
  **a. Cybersecurity maintenance expectations and associated instructions or procedures for the customer**<br/>
