@@ -317,13 +317,13 @@ The term &quot;establish communications&quot; is used throughout this section to
      - Providing communications and documentation detailing how to perform recommended local and/or remote maintenance activities.
      - Providing communications and documentation detailing the manufacturer&#39;s recommended vulnerability and patch management plan.
   2. **Data Protection: Establish communications with instructions for removing all data from IoT devices prior to maintenance and repairs.**<br/><br/>
-   Information that may be necessary to provide include details and actions such as **:**
+   Information that may be necessary to provide include details and actions such as:
      - Providing IoT device customers the details necessary for them to know when and how to remove all data from IoT devices prior to removing the devices from facilities for offsite maintenance or repairs.
      - Providing information describing how to use the IoT device capabilities to remove all data from the device.
 
  **b. When maintenance will be performed by supporting entities that will need access (remote or onsite) to customer&#39;s IoT devices, and their information security contract requirements**<br/>
   1. **Device Acquisition and Maintenance: Establish communications to provide the IoT device customers with the details necessary to support IoT device maintenance and diagnostic activities and documentation.**<br/><br/>
-   Information that may be necessary to provide include details and actions such as
+   Information that may be necessary to provide include details and actions such as:
      - Providing the details necessary to enable IoT device customers to monitor onsite and offsite IoT device maintenance activities.
        - _Examples:_
          - _Clearly indicating to customers the type and nature of the local and/or remote maintenance activities required once the device is purchased and deployed in the organization._
