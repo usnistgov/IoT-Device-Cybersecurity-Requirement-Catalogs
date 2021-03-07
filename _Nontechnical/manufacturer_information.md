@@ -1,4 +1,4 @@
-# **B.   Information Dissemination – From the Manufacturer and/or Supporting Entity**
+# **B). Information Dissemination – From the Manufacturer and/or Supporting Entity**
 
 **The ability for the manufacturer and/or supporting entity to broadcast and distribute information related to cybersecurity of the IoT device.**
 
