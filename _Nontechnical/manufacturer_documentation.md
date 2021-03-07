@@ -241,8 +241,8 @@ The term &quot;establish communications&quot; is used throughout this section to
      - Providing the details necessary to implement management and operational controls for when and how to generate internal security alerts, advisories, and directives about the IoT devices.<br/><br/>
   3. **Data Protection: Establish communications to provide the IoT device customers with the details necessary to establish and modify IoT device data integrity controls.**<br/><br/>
    Information that may be necessary to provide include details and actions such as:
-    - Providing IoT device customers with the details necessary to support secure implementation of the IoT device and associated systems data integrity controls.
-    - Providing IoT device customers with documentation describing the data integrity controls built into the IoT device and how to use them. If there are no data integrity controls built into the IoT device, include documentation explaining to IoT device customers the ways to achieve IoT device data integrity.<br/><br/>
+     - Providing IoT device customers with the details necessary to support secure implementation of the IoT device and associated systems data integrity controls.
+     - Providing IoT device customers with documentation describing the data integrity controls built into the IoT device and how to use them. If there are no data integrity controls built into the IoT device, include documentation explaining to IoT device customers the ways to achieve IoT device data integrity.<br/><br/>
   4. **Device Identity: Establish communications describing how to establish unique identification for the IoT device.**<br/><br/>
    Information that may be necessary to provide, as determined by the manufacturer&#39;s assessment of cybersecurity risk created by the IoT device, include details and actions such as:
      - Providing details for how to establish unique identification for each IoT device associated with the system and critical system components within which it is used.
@@ -324,7 +324,7 @@ The term &quot;establish communications&quot; is used throughout this section to
  **b. When maintenance will be performed by supporting entities that will need access (remote or onsite) to customer&#39;s IoT devices, and their information security contract requirements**<br/>
   1. **Device Acquisition and Maintenance: Establish communications to provide the IoT device customers with the details necessary to support IoT device maintenance and diagnostic activities and documentation.**<br/><br/>
    Information that may be necessary to provide include details and actions such as
-     - Providingthe details necessary to enable IoT device customers to monitor onsite and offsite IoT device maintenance activities.
+     - Providing the details necessary to enable IoT device customers to monitor onsite and offsite IoT device maintenance activities.
        - _Examples:_
          - _Clearly indicating to customers the type and nature of the local and/or remote maintenance activities required once the device is purchased and deployed in the organization._
          - _Communicating the physical and technical capabilities required for these maintenance activities to occur._
