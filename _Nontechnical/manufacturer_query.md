@@ -26,7 +26,8 @@ Customer organizations and their third-parties may want, or be required by contr
       - Providing instructions for the IoT device customer to use to send the manufacturer software flaw reports.
       - Providing a description of the procedures the manufacturer follows for processing the software flaw reports, determining which flaws need to be fixed, for scheduling corrections to identified flaws, and for how the manufacturer will notify the IoT customer of the status of the software flaw fix.
       - Communicating device remediation efforts with stakeholders and IoT device customers.
-      - Providing instructions for the IoT device customer to use to send other types of IoT device bug reports to the manufacturer.<br/><br/>
+      - Providing instructions for the IoT device customer to use to send other types of IoT device bug reports to the manufacturer.
+      
 ## 2.) &nbsp;&nbsp;The ability for the manufacturer and/or supporting entity to respond to customer and third-party queries about cybersecurity of the IoT device (e.g., customer support)<br/>
  This section of capabilities includes non-technical communications and actions that manufacturers provide to receive and answer questions about the IoT device security, privacy and compliance issues from IoT device customers. Manufacturers and/or their supporting entities can provide trained personnel to respond to customer questions, or other methods as described in the examples. Manufacturers can use reports of common queries and vulnerabilities to identify ways to improve the cybersecurity of the IoT device. For broadly used IoT devices, some customers may need additional support to securely provision and use an IoT device.
 
