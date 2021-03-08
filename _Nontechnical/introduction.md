@@ -43,8 +43,6 @@ For assistance in determining risks created by IoT devices, manufacturers and th
 
 The IoT Cybersecurity Manufacturer Non-Technical Supporting Capabilities catalog is structured as follows:
 
-<div style = "margin-left=2em">
- 
  **A. Documentation from the Manufacturer**
  
    1. **Document assumptions made during the development process and other expectations related to the IoT device.**
@@ -70,4 +68,3 @@ The IoT Cybersecurity Manufacturer Non-Technical Supporting Capabilities catalog
    4. **Educate customers about how to back-up the data collected from or derived by the IoT device, and how to access such data that is stored in cloud storage, or other repositories.**
    5. **Educate customers about vulnerability management options for the IoT device or associated system available to be used by customers.**
    6. **Educate customers about how an IoT device can be securely reprovisioned or disposed of.**
-</div>
