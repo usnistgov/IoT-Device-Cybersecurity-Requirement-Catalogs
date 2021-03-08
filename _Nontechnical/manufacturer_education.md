@@ -106,7 +106,7 @@ The education content should ultimately address the needs for IoT device custome
      - Providing education to IoT device customers that includes instructions describing how to back up data from systems where IoT device data is stored.
      - Providing awareness reminders and tips to IoT device customers (e.g., directly in person, in videos, in an online webinar) for various aspects involved with backing up the IoT device data.
 
-## 6. &nbsp;&nbsp;Educate customers about threat and vulnerability management options available for the IoT device or associated system that could be used by customers.<br/>
+## 6). &nbsp;&nbsp;Educate customers about threat and vulnerability management options available for the IoT device or associated system that could be used by customers.<br/>
  This section of capabilities includes education activities that manufacturers can provide to IoT device customers to make them aware of the full range of cybersecurity threats and vulnerabilities associated with the IoT device, and their options for managing them. Manufacturers and/or their supporting entities can provide education to IoT device customers describing the IoT device and/or manufacturer&#39;s threat and vulnerability monitoring for IoT device components, ensuring that potential threats are not overlooked. Providing education to IoT device customers about vulnerability management options will provide them with the knowledge necessary for them to most effectively manage risk within the systems where the IoT device is implemented.
 
  **a. State Awareness**
