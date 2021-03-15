@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default navbar-fixed-left" role="navigation">
+<nav style="width:12.5%; height: 100%" class="navbar navbar-default navbar-fixed-left" role="navigation">
 	<ul class="nav navbar-nav">
       <li id="search-box">
         <input type="text" id="search-input" placeholder="Search..." onFocus="loadSearch()">
@@ -10,7 +10,7 @@
           {% assign current = 'active' %}
         {% endif %}
         
-        <li class="{{ current }}">
+        <li style="font-size:18px; width:95%;" class="{{ current }}">
           {% if link.external %}
               <a href="{{ link.url }}">{{ link.text }} <i class="fa fa-external-link"></i></a>
           {% else %}
