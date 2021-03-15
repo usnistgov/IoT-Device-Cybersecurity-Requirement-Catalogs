@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Manufacturer Information and Query Reception
-navOrder: 3
-navTitle: Manufacturer Information and Query Reception
-permalink: /nontechnical/manufacturer_query/
+title: Information & Query Reception
+navOrder: 2
+navTitle: Information & Query Reception
+permalink: /nontechnical/manufacturer/query/
 ---
 
 # B.&nbsp;&nbsp;&nbsp; Manufacturer Information and Query Reception

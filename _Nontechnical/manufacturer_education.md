@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Manufacturer Education & Awareness
-navOrder: 5
-navTitle: Manufacturer Education & Awareness
-permalink: /nontechnical/manufacturer_education/
+title: Education & Awareness
+navOrder: 4
+navTitle: Education & Awareness
+permalink: /nontechnical/manufacturer/education/
 ---
 
 # D.&nbsp;&nbsp;&nbsp;Education and Awareness from Manufacturers/Supporting Entities

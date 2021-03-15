@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Manufacturer Information Dissemination
-navOrder: 4
-navTitle: Manufacturer Information Dissemination
-permalink: /nontechnical/manufacturer_information/
+title: Information Dissemination
+navOrder: 3
+navTitle: Information Dissemination
+permalink: /nontechnical/manufacturer/information/
 ---
 
 # C. &nbsp;&nbsp;&nbsp;Information Dissemination – From the Manufacturer and/or Supporting Entity

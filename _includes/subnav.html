@@ -1,0 +1,16 @@
+{% assign scurrent = '' %}
+<li style="padding-left:10px" class="{{ scurrent }}"><a href="{{ site.baseurl }}/nontechnical/{{ include.urlCheck }}/introduction/">{{ include.label }}</a></li>
+
+<ul class="subnav">      
+	{% for p in include.pages %}
+                {% unless p.exclude %}
+			{% assign sscurrent = '' %}
+                        {% if page.url == p.url %}
+                        	{% assign sscurrent = 'active' %}
+                        {% endif %}
+			{% if p.url contains include.urlCheck %}
+                        	<li style="padding-bottom:10px; font-size:15px" class="{{ sscurrent }}"><a href="{{ site.baseurl }}{{ p.url }}">{{ p.navTitle }}</a></li>
+                        {% endif %}
+        	{% endunless %}
+	{% endfor %}
+</ul>
