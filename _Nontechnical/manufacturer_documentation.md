@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Manufacturer Documentation
-navOrder: 2
-navTitle: Manufacturer Documentation
-permalink: /nontechnical/manufacturer_documentation/
+title: Documentation
+navOrder: 1
+navTitle: Documentation
+permalink: /nontechnical/manufacturer/documentation/
 ---
 
 # A. &nbsp;&nbsp;&nbsp;Documentation from the Manufacturer

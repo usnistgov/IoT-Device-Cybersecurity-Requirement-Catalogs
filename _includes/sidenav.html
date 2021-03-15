@@ -21,7 +21,12 @@
         
             {% assign c = site.collections | where: "label", link.collection | first %}
             {% assign pages = c.docs | sort: 'navOrder' %}
-            
+
+            {% if c.label == 'Nontechnical' %}
+		{% include subnav.html label="Manufacturer" urlCheck="manufacturer" pages=pages %}
+                {% include subnav.html label="Customer" urlCheck="customer" pages=pages %}
+            {% else %}
+
             <ul class="subnav">
             {% for p in pages %}
               {% unless p.exclude %}
@@ -30,11 +35,12 @@
                 	{% assign scurrent = 'active' %}
               	{% endif %}
               
-              	<li class="{{ scurrent }}"><a href="{{ site.baseurl }}{{ p.url }}">{{ p.navTitle }}</a></li>
+              	<li style="padding-bottom:10px; font-size:15px;" class="{{ scurrent }}"><a href="{{ site.baseurl }}{{ p.url }}">{{ p.navTitle }}</a></li>
               {% endunless %}
             {% endfor %}
           
             </ul>
+          {% endif %}
           {% endif %}
           
           
