@@ -45,26 +45,26 @@ The IoT Cybersecurity Manufacturer Non-Technical Supporting Capabilities catalog
 
  [**A. Documentation from the Manufacturer**]({{site.baseurl}}{%link _Nontechnical/manufacturer_documentation.md %})
  
-   1. **Document assumptions made during the development process and other expectations related to the IoT device.**
-   2. **Document the cybersecurity capabilities, such as those detailed within NISTIR 8259A and within the full IoT cybersecurity technical catalog, that are  implemented within the IoT device, and how to configure and use them.**
-   3. **Document design and support considerations related to the IoT device.**
-   4. **Document maintenance requirements for the IoT device.**
+   1. [**Document assumptions made during the development process and other expectations related to the IoT device.**]({{site.baseurl}}/nontechnical/manufacturer/documentation/#Doc1)
+   2. [**Document the cybersecurity capabilities, such as those detailed within NISTIR 8259A and within the full IoT cybersecurity technical catalog, that are  implemented within the IoT device, and how to configure and use them.**]({{site.baseurl}}/nontechnical/manufacturer/documentation/#Doc2)
+   3. [**Document design and support considerations related to the IoT device.**]({{site.baseurl}}/nontechnical/manufacturer/documentation/#Doc3)
+   4. [**Document maintenance requirements for the IoT device.**]({{site.baseurl}}/nontechnical/manufacturer/documentation/#Doc4)
   
  [**B. Manufacturer Information and Query Reception**]({{site.baseurl}}{%link _Nontechnical/manufacturer_query.md %})
  
-   1. **The ability for the manufacturer and/or supporting entity to receive maintenance and vulnerability information (e.g., bug reporting capabilities, bug bounty programs) from their customers and other types of entities.**
-   2. **The ability for the manufacturer and/or supporting entity to respond to customer and third-party queries about cybersecurity of the IoT device (e.g., customer support).**
+   1. [**The ability for the manufacturer and/or supporting entity to receive maintenance and vulnerability information (e.g., bug reporting capabilities, bug bounty programs) from their customers and other types of entities.**]({{site.baseurl}}/nontechnical/manufacturer/query/#Query1)
+   2. [**The ability for the manufacturer and/or supporting entity to respond to customer and third-party queries about cybersecurity of the IoT device (e.g., customer support).**]({{site.baseurl}}/nontechnical/manufacturer/query/#Query2)
  
  [**C. Information Dissemination – From the Manufacturer and/or Supporting Entity**]({{site.baseurl}}{%link _Nontechnical/manufacturer_information.md %})
  
-   1. **The procedures to support the ability for the manufacturer and/or supporting entity to alert customers of the IoT device about cybersecurity relevant information.**
-   2. **The procedures to support the ability for the manufacturer and/or supporting entity to notify customers of cybersecurity related events and information related to an IoT device throughout the support lifecycle.**
+   1. [**The procedures to support the ability for the manufacturer and/or supporting entity to alert customers of the IoT device about cybersecurity relevant information.**]({{site.baseurl}}/nontechnical/manufacturer/information/#Info1)
+   2. [**The procedures to support the ability for the manufacturer and/or supporting entity to notify customers of cybersecurity related events and information related to an IoT device throughout the support lifecycle.**]({{site.baseurl}}/nontechnical/manufacturer/information/#Info2)
 
  [**D. Education and Awareness from Manufacturers/Supporting Entities**]({{site.baseurl}}{%link _Nontechnical/manufacturer_education.md %})
  
-   1. **Educate customers of the IoT device about the presence and use of device cybersecurity capabilities.**
-   2. **Make customers aware of their cybersecurity responsibilities related to the IoT device and how responsibilities may be shared between them and others, such as the IoT device manufacturer.**
-   3. **Make customers aware of key assumptions and expectations related to the cybersecurity of the IoT device.**
-   4. **Educate customers about how to back-up the data collected from or derived by the IoT device, and how to access such data that is stored in cloud storage, or other repositories.**
-   5. **Educate customers about vulnerability management options for the IoT device or associated system available to be used by customers.**
-   6. **Educate customers about how an IoT device can be securely reprovisioned or disposed of.**
+   1. [**Educate customers of the IoT device about the presence and use of device cybersecurity capabilities.**]({{site.baseurl}}/nontechnical/manufacturer/education/#Edu1)
+   2. [**Educate customers about how an IoT device can be securely reprovisioned or disposed of.**]({{site.baseurl}}/nontechnical/manufacturer/education/#Edu2)
+   3. [**Make customers aware of their cybersecurity responsibilities related to the IoT device and how responsibilities may be shared between them and others, such as the IoT device manufacturer.**]({{site.baseurl}}/nontechnical/manufacturer/education/#Edu3)
+   4. [**Provide training to IoT customers that explains the manufacturer&#39;s key assumptions and expectations related to the cybersecurity of the IoT device**]({{site.baseurl}}/nontechnical/manufacturer/education/#Edu4)
+   5. [**Provide training for how to back-up the data collected from or derived by the IoT device, and how to access such data that is stored in cloud storage, or other repositories.**]({{site.baseurl}}/nontechnical/manufacturer/education/#Edu5)
+   6. [**Educate customers about vulnerability management options for the IoT device or associated system available to be used by customers.**]({{site.baseurl}}/nontechnical/manufacturer/education/#Edu6)

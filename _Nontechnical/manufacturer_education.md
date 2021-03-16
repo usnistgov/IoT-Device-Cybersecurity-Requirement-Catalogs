@@ -17,6 +17,7 @@ Manufacturers and/or their supporting entities can provide education to IoT devi
 The education content should ultimately address the needs for IoT device customers to know how to use the IoT device securely and include such topics as those described in this capability set of actions.
 
 ## 1.) &nbsp;&nbsp;Educate customers of the IoT device about the presence and use of device cybersecurity capabilities.<br/>
+{: #Edu1 }
  The complexities of IoT systems, devices, and use cases means it is important for manufacturers to create awareness and educate customers about the cybersecurity capabilities of their IoT device. This section of capabilities includes non-technical communications and actions that manufacturers can provide to help ensure IoT device users know and understand how to use such technical capabilities. This information will help IoT device customers to determine the degree to which the manufacturer&#39;s non-technical support will help them use the technical IoT device cybersecurity capabilities to support their security and purchasing policies, and associated legal requirements.
 
  **a. How to use device identifiers**<br/>
@@ -61,6 +62,7 @@ The education content should ultimately address the needs for IoT device custome
      - Providing education for how to scan for critical software updates and patches.
 
 ## 2.) &nbsp;&nbsp;Educate customers about how an IoT device can be securely reprovisioned or disposed of.<br/>
+{: #Edu2 }
  IoT devices, associated data, documentation, tools, or system components can be disposed of at any time during the device life cycle (not only at the end of life or service). For example, disposal of an IoT device&#39;s components and/or data can occur during research and development, design, prototyping, or operations and maintenance and can be accomplished using a wide range of methods. Opportunities for compromise during disposal affect physical and logical data. This section of capabilities includes non-technical communications and actions that manufacturers can provide to help ensure IoT device customers use secure disposal methods based upon the type of IoT device, the associated data and supporting documentation and system components.
 
  **a. Device handling, retention, and disposal**<br/>
@@ -70,6 +72,7 @@ The education content should ultimately address the needs for IoT device custome
      - Providing education that explains and/or demonstrates how to securely and irreversiblyto delete data from the IoT device and any associated data storage locations.
 
 ## 3.) &nbsp;&nbsp;Make customers aware of their cybersecurity responsibilities related to the IoT device and how responsibilities may be shared between them and others, such as the IoT device manufacturer.<br/>
+{: #Edu3 }
  Manufacturers and/or their supporting entities can provide basic and advanced levels of IoT device security training to IoT device customers, using the best training method as it relates to the customers, the type of IoT devices, and other related factors, describing the customer&#39;s responsibilities for IoT device security activities, such as those related to maintenance of the IoT device. This section of capabilities includes non-technical communications and actions that manufacturers can provide to help IoT device customers fulfill their responsibilities related to the operation of the IoT device within the context of their own systems within which the IoT device is implemented, and in accordance with their own security and privacy programs.
 
  **a. Device maintenance**<br/>
@@ -88,6 +91,7 @@ The education content should ultimately address the needs for IoT device custome
      - Providing education and supporting materials explaining recommended IoT device roles and responsibilities to support the ability for IoT device customers to determine the appropriate level within their organizational hierarchy of privileges to establish those roles.
 
 ## 4). &nbsp;&nbsp;Provide training to IoT customers that explains the manufacturer&#39;s key assumptions and expectations related to the cybersecurity of the IoT device.<br/>
+{: #Edu4 }
  Manufacturers and/or their supporting entities can provide education and associated supporting materials to IoT device customers describing the key assumptions for how the IoT device will be used, the needed types of physical, administrative and systems security controls that are expected to be implemented to support the strongest security for the IoT device, and the expectations the manufacturer has related to the use of the IoT device, and related impacts to security risks for which the IoT customer needs to be aware. This section of capabilities includes examples of such non-technical education that manufacturers can provide to make the IoT customer aware of expectations and assumptions for how the customer will use the device.
 
   **a. Device Assumptions and Expectations**<br/>
@@ -96,6 +100,7 @@ The education content should ultimately address the needs for IoT device custome
       - Providing education explaining the responsibilities of IoT device customers to perform their own risk assessments using the information provided by the manufacturer, to determine the risks the IoT device will bring into the IoT device customer&#39;s systems.
 
 ## 5). &nbsp;&nbsp;Provide training for how to back-up the data collected from or derived by the IoT device, and how to access such data that is stored in cloud storage, or other repositories.<br/>
+{: #Edu5 }
  Data backups must be made to support IoT device customers&#39; organizational requirements and as required by each organization&#39;s applicable laws, executive orders, directives, regulations, or other legal requirements regarding specific categories of information (e.g., personal health information). Manufacturers can provide education to IoT device customers explaining and/or demonstrating how to back-up the data collected, derived from, stored, transmitted and/or processed by the IoT device, in addition to the IoT device system-level information including, if applicable, system state information, operating system software, middleware, application software, and licenses. This section of capabilities includes non-technical educational activities that manufacturers can provide to IoT device customers to teach them how to backup, access and restore IoT device related data.
 
  **a. Creating Backups**<br/>
@@ -107,6 +112,7 @@ The education content should ultimately address the needs for IoT device custome
      - Providing awareness reminders and tips to IoT device customers (e.g., directly in person, in videos, in an online webinar) for various aspects involved with backing up the IoT device data.
 
 ## 6). &nbsp;&nbsp;Educate customers about threat and vulnerability management options available for the IoT device or associated system that could be used by customers.<br/>
+{: #Edu6 }
  This section of capabilities includes education activities that manufacturers can provide to IoT device customers to make them aware of the full range of cybersecurity threats and vulnerabilities associated with the IoT device, and their options for managing them. Manufacturers and/or their supporting entities can provide education to IoT device customers describing the IoT device and/or manufacturer&#39;s threat and vulnerability monitoring for IoT device components, ensuring that potential threats are not overlooked. Providing education to IoT device customers about vulnerability management options will provide them with the knowledge necessary for them to most effectively manage risk within the systems where the IoT device is implemented.
 
  **a. State Awareness**
