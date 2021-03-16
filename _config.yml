@@ -5,6 +5,7 @@ baseurl: "/IoT-Device-Cybersecurity-Requirement-Catalogs" # the subpath of your 
 
 # Build settings
 markdown: kramdown
+-auto_ids: true
 
 exclude:
 - ".ruby-version"
