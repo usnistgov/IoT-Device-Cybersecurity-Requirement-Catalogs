@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 {% include NISTPagesHeader.html %}
-
+<div style="position:absolute;top:0;right:0;width:18%;padding-right:10px;padding-top:5px;">
+<input style="width:100%" type="text" id="search-input" placeholder="Search..." onFocus="loadSearch()">
+<ul style="width:100%;background-color:#f8f8f8;border-style:solid;border-color:#e7e7e7;border-width:thin;" id="results-container"></ul>
+</div>
 {% include sidenav.html %}
 <body>
 	<div class="container">
