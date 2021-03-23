@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Education & Awareness
+title: "Education & Awareness (Manufacturer)"
+category: "Nontechnical"
+tags: nontechnical manufacturer education awareness 
 navOrder: 4
 navTitle: Education & Awareness
 permalink: /nontechnical/manufacturer/education/

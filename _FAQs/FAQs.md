@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "FAQs"
+category: "FAQs"
+tags: FAQs profile NIST core baseline 
 permalink: /FAQs/
 exclude: true
 ---

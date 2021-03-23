@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Logical Access to Interfaces
+title: "Logical Access to Interfaces"
+category: "Technical"
+tags: logical access interfaces authentication authorization support interfaces management role connection ethernet wireless account
 navOrder: 4
 navTitle:  Logical Access to Interfaces
 permalink: /technical/logical/

@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Documentation
+title: "Documentation (Manufacturer)"
+category: "Nontechnical"
+tags: nontechnical documentation manufacturer 
 navOrder: 1
 navTitle: Documentation
 permalink: /nontechnical/manufacturer/documentation/

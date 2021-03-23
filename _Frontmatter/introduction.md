@@ -1,6 +1,7 @@
 ---
 layout: default
-title: "Recommendations for IoT Device Manufacturers"
+title: "Introduction"
+category: "Introduction"
 permalink: /
 exclude: true
 ---

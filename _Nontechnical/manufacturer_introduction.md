@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Introduction
-navTitle: Introduction
+title: "Nontechnical Catalog - Manufacturer"
+tags: nontechncial catalog manufacturer introduction
+category: "Nontechnical"
 permalink: /nontechnical/manufacturer/introduction/
 exclude: true
 ---

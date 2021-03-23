@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Information Dissemination
+title: "Information Dissemination (Manufacturer)"
+category: "Nontechnical"
+tags: nontechnical manufacturer information dissemination 
 navOrder: 3
 navTitle: Information Dissemination
 permalink: /nontechnical/manufacturer/information/

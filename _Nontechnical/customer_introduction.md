@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Introduction
-navTitle: Introduction
+title: "Nontechnical Catalog - Customer"
+category: "Nontechnical"
+tags: nontechncial customer catalog introduction
 permalink: /nontechnical/customer/introduction/
 exclude: true
 ---

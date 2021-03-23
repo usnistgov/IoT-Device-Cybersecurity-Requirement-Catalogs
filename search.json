@@ -8,11 +8,10 @@ layout: null
   {% for post in posts %}
     {
       "title"    : "{{ post.title | escape }}",
-      "category" : "{{ post.category }}",
+      "category" : "{{ post.category | escape }}",
       "tags"     : "{{ post.tags | join: ', ' }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date }}",
-	  "content"  : {{ post.content | strip_html | jsonify }}
-    } {% unless forloop.last %},{% endunless %}
+      "date"     : "{{ post.date }}" 
+     } {% unless forloop.last %}, {% endunless %}
   {% endfor %}
 ]

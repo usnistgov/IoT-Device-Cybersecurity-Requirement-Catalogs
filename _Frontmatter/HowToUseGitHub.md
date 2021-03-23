@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "How To Use GitHub"
+category: "Introduction"
+tags: github guide pull request branch issue
 navOrder: 4
 navTitle: How To Use GitHub
 permalink: /github/
