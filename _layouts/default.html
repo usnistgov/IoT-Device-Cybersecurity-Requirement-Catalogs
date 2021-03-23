@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html class="nist-footer-bottom">
+<link rel="stylesheet" href="https://pages.nist.gov/nist-header-footer/css/nist-combined.css">
 {% include NISTPagesHeader.html %}
-<div style="position:absolute;top:0;right:0;width:20%;padding-right:10px;padding-top:8px;">
-<input style="width:100%" type="text" id="search-input" placeholder="Search ..." onFocus="loadSearch()">
+<div style="position:absolute;top:1.5%;right:1%;width:20%;">
+<input style="width:100%" type="text" id="search-input" placeholder="Search ...">
 <ul style="width:100%;background-color:#f8f8f8;border-style:solid;border-color:black;border-width:thin;" id="results-container"></ul>
 </div>
 <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.js" type="text/javascript"></script>
@@ -27,14 +28,5 @@
 	</div>
 </body>
 
-<footer role="contentInfo" class="site-footer">
-  <div class="section-container">
-    <div class="section-content">
-		{% include NISTPagesFooter.html %}
-    </div>
-  </div>
-</footer>
-
-
-
+{% include NISTPagesFooter.html %}
 </html>
