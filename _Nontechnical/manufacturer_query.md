@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Information & Query Reception
+title: "Information & Query Reception (Manufacturer)"
+category: "Nontechnical"
+tags: nontechnical query reception information manufacturer
 navOrder: 2
 navTitle: Information & Query Reception
 permalink: /nontechnical/manufacturer/query/

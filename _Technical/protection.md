@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Data Protection
+title: "Data Protection"
+category: "Technical"
+tags: device protection data cryptographic storage transmission encryption certificate signature hash algorithm key integrity 
 navOrder: 3
 navTitle: Data Protection
 permalink: /technical/protection/

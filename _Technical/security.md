@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Device Security
+title: "Device Security"
+category: "Technical"
+tags: device security execution communication secure resource integrity memory process system utilize environment
 navOrder: 7
 navTitle: Device Security
 permalink: /technical/security/

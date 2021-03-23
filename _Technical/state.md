@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Cybersecurity State Awareness
+title: "Cybersecurity State Awareness"
+category: "Technical"
+tags: device event state cybersecurity monitor response log capture audit awareness alert activation 
 navOrder: 6
 navTitle: Cybersecurity State Awareness
 permalink: /technical/state/

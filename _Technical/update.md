@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Software Update
+title: "Software Update"
+category: "Technical"
+tags: software update support authorized entities valid installation uninstallation verify
 navOrder: 5
 navTitle: Software Update
 permalink: /technical/update/

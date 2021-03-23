@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "NIST Needs Your Feedback"
+category: "Introduction"
+tags: feedback NIST engage provide share submit 
 navOrder: 3
 navTitle: Feedback
 permalink: /feedback/

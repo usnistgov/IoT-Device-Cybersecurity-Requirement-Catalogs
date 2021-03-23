@@ -1,6 +1,7 @@
 ---
 layout: default
-title: "Recommendations for IoT Device Manufacturers"
+title: " Non-Technical Supporting Capabilities Catalog"
+tags: nontechnical capabilities catalog 
 permalink: /nontechnical/
 exclude: true
 ---

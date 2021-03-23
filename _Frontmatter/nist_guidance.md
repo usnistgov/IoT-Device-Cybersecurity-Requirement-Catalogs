@@ -1,6 +1,8 @@
 ---
 layout: default
-title: "Recommendations for IoT Device Manufacturers"
+title: "NIST Guidance"
+category: "Introduction"
+tags: NIST guidance 8259A 8259B 8259C 8259D 800-213 nistir
 navOrder: 1
 navTitle: NIST Guidance
 permalink: /nist-guidance/

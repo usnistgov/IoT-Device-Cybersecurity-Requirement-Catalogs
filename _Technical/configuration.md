@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Device Configuration
+title: "Device Configuration"
+category: "Technical"
+tags: configuration interface display control device settings
 navOrder: 2
 navTitle: Device Configuration
 permalink: /technical/configuration/

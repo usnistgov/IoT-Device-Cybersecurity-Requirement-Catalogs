@@ -1,12 +1,14 @@
 ---
 layout: default
-title: Device Identification
+title: "Device Identification"
+category: "Technical"
+tags: device identification identifier management identity
 navOrder: 1
 navTitle: Device Identification
 permalink: /technical/identity/
 ---
 
-# Device Identity
+# Device Identification
  
 The capability to identify the IoT device for multiple purposes and in multiple ways to meet organizational requirements.
  

@@ -1,6 +1,8 @@
 ---
 layout: default
-title: "Recommendations for IoT Device Manufacturers"
+title: "Catalog Overview"
+category: "Introduction"
+tags: catalog technical nontechnical introduction capabilities
 navOrder: 2
 navTitle: Catalog Overview
 permalink: /catalog/

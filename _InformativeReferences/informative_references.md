@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "NIST Informative References"
+category: "Informative References"
+tags: NIST informative references 800-53 CSF
 permalink: /informative_references/
 exclude: true
 ---

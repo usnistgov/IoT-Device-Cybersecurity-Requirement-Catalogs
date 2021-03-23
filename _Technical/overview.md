@@ -1,6 +1,8 @@
 ---
 layout: default
-title: "Recommendations for IoT Device Manufacturers"
+title: "Technical Catalog"
+tags: technical capabilities catalog
+category: "Technical"
 permalink: /technical/
 exclude: true
 ---
