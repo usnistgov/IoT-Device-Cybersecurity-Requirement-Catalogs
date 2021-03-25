@@ -1,0 +1,76 @@
+.toggle {
+  position:relative;
+  top: 20%;
+  right: -79%;  
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  height: 30px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.toggle label {
+  padding-right: 8px;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--black);
+}
+
+.toggle span {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.toggle span:before {
+  display: block;
+  width: 50px;
+  height: 30px;
+  content: "";
+  background-color: #8296a4;
+  border-radius: 28px;
+  transition: background-color 0.3s ease;
+}
+
+.toggle span:after {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  display: block;
+  width: 28px;
+  height: 28px;
+  visibility: visible;
+  content: "";
+  background-color: #fff;
+  border-radius: 28px;
+  transition: left 0.3s ease;
+}
+
+input[type="checkbox"]:checked ~ span:before {
+  background-color: #0B3C5D;
+}
+
+input[type="checkbox"]:checked ~ span:after {
+  top: 1px;
+  left: 21px;
+}
+
+input[type="checkbox"]:hover ~ span:before {
+  background-color: #0B3C5D;
+}
+
+input[type="checkbox"]:not(:checked):hover ~ span:before {
+  background-color: #afbec9;
+
+}
+
+input[type="checkbox"]:focus ~ span:before {
+  outline: none;
+}
+

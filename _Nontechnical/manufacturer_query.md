@@ -10,6 +10,26 @@ permalink: /nontechnical/manufacturer/query/
 
 # B.&nbsp;&nbsp;&nbsp; Manufacturer Information and Query Reception
 
+<div style="display:none">
+<script>
+  function openExamples(){
+
+      var examples = document.getElementsByTagName("details");
+      var i;
+      for(i = 0; i < examples.length; i++){
+
+          examples[i].open = (examples[i].open === false) ? true : false;
+      }
+  }
+</script>
+</div>
+
+<div class="toggle">
+<label>Show Examples</label>
+<input type="checkbox" onChange="openExamples()" id="toggle1" />
+<span></span>
+</div>
+
 **The ability for the manufacturer and/or supporting entity to receive from the customer information and queries related to cybersecurity of the IoT device.**
 
 This capability provides an input for the manufacturer to use to gather cybersecurity related information about their IoT devices as they are being used by customers, revealing topics where there may be a need to provide additional customer training, along with tracking information provided to customers to answer their questions about securing the device. Such ongoing interactions have an important role in securing the IoT device and meeting customers&#39; cybersecurity needs and goals after purchase. These actions can also support a number of other cybersecurity supporting activities, including those within the Information Dissemination and Education and Awareness non-technical supporting sections of capabilities.
@@ -40,10 +60,13 @@ Customer organizations and their third-parties may want, or be required by contr
     Information that may be necessary to provide to answer questions about how to implement technical cybersecurity event awareness capabilities include details and actions such as:
       - Providing customers with answers that include the details necessary to implement IoT device and associated systems security directives for cybersecurity events in accordance with established time frames.
       - Providing customers with a method of contacting the manufacturer to obtain answers to questions about cybersecurity events related to the IoT device, and related cybersecurity requirements noncompliance.
-        - _Examples:_
+         <details><summary style="display:list-item;" markdown='span'> _Examples_ </summary>
+
           - _Providing directions and procedures to IoT device customers detailing how to submit questions and requests for information to manufacturers about their IoT device related to security and privacy compliance requirements._
           - _Some examples of regulatory compliance requirements information that may be needed include for the: Federal Information Security Modernization Act (FISMA), Health Insurance Portability and Accountability Act (HIPAA), California Consumer Privacy Act (CCPA), EU General Data Protection Regulation (GDPR)._
-          - _Including within the reporting instruction to the IoT device customer a timeframe within which such IoT device compliance questions and requests will be answered._<br/><br/>
+          - _Including within the reporting instruction to the IoT device customer a timeframe within which such IoT device compliance questions and requests will be answered._<br/>
+         </details>
+  <br/>
   2. **Device Acquisition and Maintenance: Establish ways for IoT device customers to document attempts to obtain the IoT device components or information.**<br/><br/>
    Information that may be necessary to provide include details and actions such as:
      - Providing the details necessary for IoT device customers to document attempts to obtain IoT device components, or IoT device information system service documentation when such documentation is either unavailable or nonexistent, and documenting the appropriate response for manufacturer employees, or supporting entities, to follow.
@@ -57,3 +80,5 @@ Customer organizations and their third-parties may want, or be required by contr
      - Establishing policies and procedures for call center staff to follow to verify the identity of customers.
      - Establishing policies and procedures for call center staff to follow to document IoT device customer calls.
      - Providing an online communications portal for IoT device customers to use to receive and respond to security questions, report areas of concern, and other IoT device related communications.
+<br/>
+<br/>
