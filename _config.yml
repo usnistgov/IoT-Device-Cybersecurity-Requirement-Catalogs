@@ -5,6 +5,8 @@ baseurl: "/IoT-Device-Cybersecurity-Requirement-Catalogs" # the subpath of your 
 
 # Build settings
 markdown: kramdown
+kramdown:
+  parse_block_html: true
 -auto_ids: true
 
 exclude:
