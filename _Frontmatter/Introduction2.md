@@ -1,6 +1,6 @@
 ## Device Technical Cybersecurity Capabilities
 
- [<img src="images/../images/Device_Identification.png" width="10%"> Device Identification](../_Technical/identity.md)
+ [<img src="images/../images/Device_Identification.png" width="50px"> Device Identification](../_Technical/identity.md)
 
  [<img src="images/../images/Device_Configuration.png" width="10%"> Device Configuration](../_Technical/configuration.md)
 
