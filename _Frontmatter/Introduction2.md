@@ -7,7 +7,7 @@ exclude: true
 ---
 # NIST's IoT Cybersecurity Capabilities Catalog
 
-This site contains NIST's catalog of IoT device technical cybersecurity capabilities and supporting non-technical manufacturer capabilities. The catalog contains more granular capability statements that refine and add specificity to the high-level capabilities defined in NISTIRs [8259A](https://doi.org/10.6028/NIST.IR.8259A) and [8259B](https://csrc.nist.gov/publications/detail/nistir/8259b/draft). The categories of capabilities and actions listed below can also be accessed under the [Technical Capabilities](https://pages.nist.gov/IoT-Device-Cybersecurity-Requirement-Catalogs/technical/) and [Non-Technical Capabilities](https://pages.nist.gov/IoT-Device-Cybersecurity-Requirement-Catalogs/nontechnical/) headings in the sidebar.
+This site contains the catalog of IoT device technical cybersecurity capabilities and supporting non-technical manufacturer capabilities developed by NIST's [**Cybersecurity for the Internet of Things (IoT)** program](https://www.nist.gov/programs-projects/nist-cybersecurity-iot-program). The catalog contains more granular capability statements that refine and add specificity to the high-level IoT cybersecurity capabilities defined in NISTIRs [8259A](https://doi.org/10.6028/NIST.IR.8259A) and [8259B](https://csrc.nist.gov/publications/detail/nistir/8259b/draft). The categories of capabilities and actions listed below can also be accessed under the [Technical Capabilities](https://pages.nist.gov/IoT-Device-Cybersecurity-Requirement-Catalogs/technical/) and [Non-Technical Capabilities](https://pages.nist.gov/IoT-Device-Cybersecurity-Requirement-Catalogs/nontechnical/) headings in the sidebar.
 
 ## Device Technical Cybersecurity Capabilities
 
@@ -36,10 +36,4 @@ This site contains NIST's catalog of IoT device technical cybersecurity capabili
  [<img src="images/../images/Education_Awareness.png" width="50px"> Documentation](../_Nontechnical/manufacturer_education.md)
 
 
-
-
-
-
-
-
-
+For background information about the creation and intended use of this catalog see ... (fill in)
