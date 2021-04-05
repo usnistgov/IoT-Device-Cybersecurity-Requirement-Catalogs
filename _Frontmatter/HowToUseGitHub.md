@@ -69,10 +69,12 @@ permalink: /github/
   ![]({{site.baseurl}}/{{page.collection}}/images/GitHub_Watch.png){:style="width: 1047px;"}
 
 
-**Pull Requests:** If you are familiar with GitHub, you are also welcome to provide thoughts or contributions as a pull request (PR). We prefer PRs as follows:
+**Pull Requests:** If you are familiar with GitHub, you are also welcome to provide thoughts or contributions as a pull request (PR). We prefer PRs focused on individual issues, rather than broad PRs with unrelated changes. The process for PR creation is as follows:
 
 1.	Fork a copy of [USNISTGOV/IoT-Device-Cybersecurity-Requirements-Catalogs](https://github.com/usnistgov/IoT-Device-Cybersecurity-Requirement-Catalogs) to your own organization/personal space.
-2.	Create a branch in your fork, named specifically for the edit you propose. We prefer focused PRs rather than broad-sweeping updates.
-3.	Issue a PR from your branch to the post-public-comment branch in FederalProfile-8259A.
-4.	If we intend to merge the PR, we may engage via PR reviews and request changes before completing the merge.
-5.	Please provide information about your organization and rationale for the suggested change.
+
+1.	Create a branch in your fork, named specifically for the edit you propose. Please provide information about your organization and a rationale for the suggested change.
+
+1.	Issue a PR from your branch to the main branch in IoT-Device-Cybersecurity-Requirement-Catalogs.
+
+If we intend to merge your PR, we may engage via PR reviews and potentially request changes before completing the merge.
