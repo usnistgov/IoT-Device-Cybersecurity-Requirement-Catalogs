@@ -22,4 +22,4 @@ The catalog contains more granular capability statements that refine and add spe
 |[<img src="./images/Cybersecurity_Awareness.png" width="30px"> Cybersecurity State Awareness](../_Technical/state.md) | |
 |[<img src="./images/Device_Configuration.png" width="30px"> Device Security](../_Technical/security.md) |  |
 
-For background information about the creation and intended use of this catalog see ... (fill in)
+For background information about the creation and intended use of this catalog see the [catalog information page](catalog.md).
