@@ -14,36 +14,14 @@ The catalog contains more granular capability statements that refine and add spe
 
 | Device Technical<br>Cybersecurity Capabilities | Manufacturer Non-Technical<br>Supporting Capabilities |
 | --- | --- |
-|  [<img src="images/../images/Device_Identification.png" width="30px"> Device Identification](../_Technical/identity.md)<br>[<img src="images/../images/Device_Configuration.png" width="30px"> Device Configuration](../_Technical/configuration.md)<br>[<img src="images/../images/Data_Protection.png" width="30px"> Data Protection](../_Technical/protection.md)<br>[<img src="images/../images/Access_to_Interfaces.png" width="30px"> Logical Access to Interfaces](../_Technical/logical.md)<br>[<img src="images/../images/Software_Update.png" width="30px"> Software Update](../_Technical/update.md)<br>[<img src="images/../images/Cybersecurity_Awareness.png" width="30px"> Cybersecurity State Awareness](../_Technical/state.md)<br>[<img src="images/../images/Device_Configuration.png" width="30px"> Device Security](../_Technical/security.md) |  [<img src="images/../images/Documentation.png" width="30px"> Documentation](../_Nontechnical/manufacturer_documentation.md)<br>[<img src="images/../images/Information_Querry.png" width="30px"> Information & Query Reception](../_Nontechnical/manufacturer_query.md)<br>[<img src="images/../images/Information_Dissemination.png" width="30px"> Information Dissemination](../_Nontechnical/manufacturer_information.md)<br>[<img src="images/../images/Education_Awareness.png" width="30px"> Documentation](../_Nontechnical/manufacturer_education.md) |
+| [<img src="./images/Device_Identification.png" width="30px"> Device Identification](../_Technical/identity.md) | [<img src="./images/Documentation.png" width="30px"> Documentation](../_Nontechnical/manufacturer_documentation.md)
+| <br>[<img src="./images/Device_Configuration.png" width="30px"> Device Configuration](../_Technical/configuration.md) | [<img src="./images/Information_Querry.png" width="30px"> Information & Query Reception](../_Nontechnical/manufacturer_query.md) |
+| [<img src="./images/Data_Protection.png" width="30px"> Data Protection](../_Technical/protection.md) | [<img src="./images/Information_Dissemination.png" width="30px"> ../_Nontechnical/Information Dissemination.md] |
+| [<img src="./images/Access_to_Interfaces.png" width="30px"> Logical Access to Interfaces](../_Technical/logical.md) | [<img src="./images/Education_Awareness.png" width="30px"> Documentation](../_Nontechnical/manufacturer_education.md) |
+| [<img src="./images/Software_Update.png" width="30px"> Software Update](../_Technical/update.md) | | 
+|[<img src="./images/Cybersecurity_Awareness.png" width="30px"> Cybersecurity State Awareness](../_Technical/state.md) | |
+|[<img src="./images/Device_Configuration.png" width="30px"> Device Security](../_Technical/security.md) |  |
 
 
 For background information about the creation and intended use of this catalog see ... (fill in)
-
-
----
-## Device Technical Cybersecurity Capabilities
-
- [<img src="images/../images/Device_Identification.png" width="30px"> Device Identification](../_Technical/identity.md)
-
-[<img src="images/../images/Device_Configuration.png" width="30px"> Device Configuration](../_Technical/configuration.md)
-
-[<img src="images/../images/Data_Protection.png" width="30px"> Data Protection](../_Technical/protection.md)
-
-[<img src="images/../images/Access_to_Interfaces.png" width="30px"> Logical Access to Interfaces](../_Technical/logical.md)
-
-[<img src="images/../images/Software_Update.png" width="30px"> Software Update](../_Technical/update.md)
-
-[<img src="images/../images/Cybersecurity_Awareness.png" width="30px"> Cybersecurity State Awareness](../_Technical/state.md)
-
-[<img src="images/../images/Device_Configuration.png" width="30px"> Device Security](../_Technical/security.md)
-
-## Manufacturer Non-Technical Supporting Capabilities
-
- [<img src="images/../images/Documentation.png" width="30px"> Documentation](../_Nontechnical/manufacturer_documentation.md)
-
- [<img src="images/../images/Information_Querry.png" width="30px"> Information & Query Reception](../_Nontechnical/manufacturer_query.md)
-
- [<img src="images/../images/Information_Dissemination.png" width="30px"> Information Dissemination](../_Nontechnical/manufacturer_information.md)
-
- [<img src="images/../images/Education_Awareness.png" width="30px"> Documentation](../_Nontechnical/manufacturer_education.md)
 
