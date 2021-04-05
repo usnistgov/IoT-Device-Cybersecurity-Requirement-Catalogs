@@ -36,11 +36,11 @@ NIST created the NISTIR 8259 series of IoT cybersecurity guidance documents, and
 
 For assistance in determining risks created by IoT devices, manufacturers and their supporting entities can use the following NIST resources. These are also some of the documents which federal agencies use for determining risks within their systems and can inform manufacturers&#39; actions for identifying the general kinds of risks the IoT device customers consider:
 
-- FIPS 200: Minimum Security Requirements for Federal Information and Information Systems
-- NIST Special Publication 800-53 Revision 5: Security and Privacy Controls for Information Systems and Organizations
-- Framework for Improving Critical Infrastructure Cybersecurity (often referenced as the Cybersecurity Framework, or CSF)
-- Draft NISTIR 8286A: Identifying and Estimating Cybersecurity Risk for Enterprise Risk Management (ERM)
-- NIST SP 800-161: Supply Chain Risk Management
+- [FIPS 200: _Minimum Security Requirements for Federal Information and Information Systems_](https://csrc.nist.gov/publications/detail/fips/200/final)
+- [NIST Special Publication 800-53 Revision 5: _Security and Privacy Controls for Information Systems and Organizations_](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
+- [_Framework for Improving Critical Infrastructure Cybersecurity_](https://www.nist.gov/cyberframework) (often referenced as the Cybersecurity Framework, or CSF)
+- [Draft NISTIR 8286A: _Identifying and Estimating Cybersecurity Risk for Enterprise Risk Management (ERM)_](https://csrc.nist.gov/publications/detail/nistir/8286a/draft)
+- [NIST SP 800-161: _Supply Chain Risk Management Practices for Federal Information Systems and Organizations_](https://csrc.nist.gov/publications/detail/sp/800-161/final)
 
 The IoT Cybersecurity Manufacturer Non-Technical Supporting Capabilities catalog is structured as follows:
 
