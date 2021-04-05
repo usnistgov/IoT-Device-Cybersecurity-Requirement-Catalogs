@@ -8,7 +8,7 @@ exclude: true
 
 # Non-Technical Supporting Capabilities Catalog
 
-This catalog section presents a collection of non-technical supporting capabilities that expand on the baseline set of capabilities defined in [NISTIR 8259B, _IoT Non-Technical Supporting Capability Core Baseline_](https://csrc.nist.gov/publications/detail/nistir/8259b/draft).  The NISTIR defines an IoT device manufacturer's non-technical supporting capability core baseline, which is a set of non-technical supporting capabilities generally needed from manufacturers or other third parties to support common cybersecurity controls that protect an organization’s devices as well as device data, systems, and ecosystems. The baseline provides a starting point to use in identifying a set of detailed actions that implement the device non-technical support capabilities in the baseline. The four non-technical supporting capabilities are:
+This catalog section presents a collection of non-technical supporting capabilities that expand on the baseline set of capabilities defined in [NISTIR 8259B, _IoT Non-Technical Supporting Capability Core Baseline_](https://csrc.nist.gov/publications/detail/nistir/8259b/draft).  The NISTIR identifies a set of non-technical supporting capabilities generally needed from manufacturers or other third parties to support common cybersecurity controls that protect an organization’s devices as well as device data, systems, and ecosystems. The four non-technical baseline supporting capabilities are:
 
 * **Documentation:** The ability for the manufacturer and/or supporting entity to create, gather, and store information relevant to cybersecurity of the IoT device throughout the development of a device and its subsequent lifecycle.  
 
