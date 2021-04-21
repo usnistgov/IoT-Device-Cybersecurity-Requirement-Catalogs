@@ -6,19 +6,21 @@ permalink: /
 exclude: true
 ---
 
-# Introduction
+# NIST's IoT Cybersecurity Capabilities Catalog
 
-Internet of Things (IoT) devices may create new pathways in and out of the network systems within which they are used. These issues make controlling the secure use of IoT devices within networking systems a new and challenging task. It is also challenging when trying to identify and mitigate the cybersecurity risks and then effectively protect the associated IoT data, interfaces, and linked systems. NIST’s [Cybersecurity for the Internet of Things](https://www.nist.gov/programs-projects/nist-cybersecurity-iot-program) program aims to help manufacturers and Federal government agencies better understand IoT device cybersecurity capabilities and supporting non-technical manufacturer capabilities needed for IoT devices used by Federal government agencies. The Cybersecurity for IoT program defines those terms as follows:
+This site contains the catalog of IoT device technical cybersecurity capabilities and supporting non-technical manufacturer capabilities developed by NIST's [**Cybersecurity for the Internet of Things (IoT)** program](https://www.nist.gov/programs-projects/nist-cybersecurity-iot-program).  The capabilities listed below can also be accessed under the [Technical Capabilities](https://pages.nist.gov/IoT-Device-Cybersecurity-Requirement-Catalogs/technical/) and [Non-Technical Capabilities](https://pages.nist.gov/IoT-Device-Cybersecurity-Requirement-Catalogs/nontechnical/) headings in the sidebar (which also provide more information about the types of capabilities).
 
-* Device Cybersecurity Capabilities are a set of technical device abilities needed to support common cybersecurity controls that protect the customer’s devices and device data, systems, and ecosystems.
+The catalog contains more granular capability statements that refine and add specificity to the high-level IoT cybersecurity capabilities defined in NISTIRs [8259A](https://doi.org/10.6028/NIST.IR.8259A) and [8259B](https://csrc.nist.gov/publications/detail/nistir/8259b/draft). NISTIRs 8259A/B contain core baselines of capabilities that are broadly applicable, and are complemented by the federal profile described in NISTIR [8259D](https://csrc.nist.gov/publications/detail/nistir/8259d/draft) and the guidance for federal agencies defining their IoT cybersecurity requirements in [SP 800-213](https://csrc.nist.gov/publications/detail/sp/800-213/draft). More information about all of these documents and their relationships is provided in the program's [December 2020 blog post](https://www.nist.gov/blogs/cybersecurity-insights/rounding-your-iot-security-requirements-draft-nist-guidance-federal). 
 
-* Supporting Non-technical Capabilities are a set of non-technical supporting actions generally needed from manufacturers or other third parties to support common cybersecurity controls that protect an organization’s devices as well as device data, systems, and ecosystems. 
 
-Both device cybersecurity capabilities and supporting non-technical capabilities are vital to a customer organization’s ability to implement security controls that the organization has allocated for their information systems. Figure 1 illustrates how device cybersecurity capabilities and supporting non-technical capabilities (grouped together as ‘Device Cybersecurity Requirements’) support system/organizational security capabilities, which in turn satisfy organizational security requirements.
-  
-  
-  
-![Role of Device Cybersecurity and Non-Technical Supporting Capabilities in Satisfying Security Capabilities and Requirements]({{site.baseurl}}/{{page.collection}}/images/relationships.png){:style="display: block; margin-left: auto; margin-right: auto; padding: 5px; padding-right: 40px; width: 90%;"}
-  
-**Figure 1: IoT Device Support for System Security**
-{: style="text-align: center;"}
+| Device Technical<br>Cybersecurity Capabilities | Manufacturer Non-Technical<br>Supporting Capabilities |
+| --- | --- |
+| [<img src="./images/Device_Identification.png" width="30px"> Device Identification](../_Technical/identity.md) | [<img src="./images/Documentation.png" width="30px"> Documentation](../_Nontechnical/manufacturer_documentation.md)
+| [<img src="./images/Device_Configuration.png" width="30px"> Device Configuration](../_Technical/configuration.md) | [<img src="./images/Information_Querry.png" width="30px"> Information & Query Reception](../_Nontechnical/manufacturer_query.md) |
+| [<img src="./images/Data_Protection.png" width="30px"> Data Protection](../_Technical/protection.md) | [<img src="./images/Information_Dissemination.png" width="30px"> Information Dissemination](../_Nontechnical/manufacturer_information.md) |
+| [<img src="./images/Access_to_Interfaces.png" width="30px"> Logical Access to Interfaces](../_Technical/logical.md) | [<img src="./images/Education_Awareness.png" width="30px"> Documentation](../_Nontechnical/manufacturer_education.md) |
+| [<img src="./images/Software_Update.png" width="30px"> Software Update](../_Technical/update.md) | | 
+|[<img src="./images/Cybersecurity_Awareness.png" width="30px"> Cybersecurity State Awareness](../_Technical/state.md) | |
+|[<img src="./images/Device_Configuration.png" width="30px"> Device Security](../_Technical/security.md) |  |
+
+For background information about the creation and intended use of this catalog see the [catalog information page](catalog.md).

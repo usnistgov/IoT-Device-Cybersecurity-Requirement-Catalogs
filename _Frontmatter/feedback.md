@@ -15,11 +15,11 @@ We ask for your feedback on the material we have created. Please answer the foll
 - For any given technical capability and sub-capability, have we identified the most common, or expected, device cybersecurity capability or sub-capability that should be built within an IoT device?
 - Are there any common IoT device technical cybersecurity capabilities or sub-capabilities that we have not included? Please describe.
 - Do you have any suggested updates or additions to elements of device cybersecurity capabilities and sub-capabilities, or suggestions for re-arranging the elements? Please describe.
-- Are there any common IoT device non-technical manufacturer capabilities that we have not included? Please describe.
-- Do you have any suggested updates or additions to the non-technical capabilities? Please describe.
+- Are there any common IoT device non-technical manufacturer supporting capabilities that we have not included? Please describe.
+- Do you have any suggested updates or additions to the non-technical supporting capabilities? Please describe.
 - Do you find it useful to have the technical capabilities catalog separate from the non-technical capabilities? Why or why not?
 - Is this structure (i.e., capability->sub-capability->element) useful for defining device cybersecurity capabilities?
-- Would mapping the catalog elements to NISTIR 8259A, NIST SP 800-53 (rev 4 or rev 5) and/or the Cybersecurity Framework be helpful?
+- Would mapping the catalog elements to NISTIR 8259A, NISTIR 8259B, NIST SP 800-53 rev 5, and/or the Cybersecurity Framework be helpful?
 
 # Operating Rules
 
