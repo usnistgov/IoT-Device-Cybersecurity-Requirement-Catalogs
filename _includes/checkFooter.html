@@ -1,0 +1,16 @@
+<script type="text/javascript">
+	function checkFooter(){ 
+            var content = document.getElementById("content");
+            var sidenav = document.getElementById("sidenav");
+	    var sidenavContent = document.getElementById("sidenav-content");
+	    var footer = document.getElementById("nist-footer");
+
+	    var pageBottom = content.scrollHeight - footer.offsetHeight - 75;
+
+            if(window.pageYOffset >= pageBottom){
+		sidenav.style.position = "absolute";		
+	    } else {
+ 		sidenav.style.position = "fixed";
+	    };
+        }
+</script>
