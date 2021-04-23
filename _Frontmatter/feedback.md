@@ -8,7 +8,13 @@ navTitle: Feedback
 permalink: /feedback/
 ---
 
-# NIST Needs Your Feedback 
+# Providing Feedback
+
+NIST encourages the use of GitHub mechanisms to provide feedback on our catalog contents.  Interested parties can share feedback and ask questions about resources in the [catalog repository](https://github.com/usnistgov/IoT-Device-Cybersecurity-Requirement-Catalogs/) using the [Issues](https://docs.github.com/en/github/managing-your-work-on-github/about-issues) feature. Specific change proposals can be contributed using the [Pull Request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) (PR) feature. We prefer PRs focused on individual issues, rather than broad PRs with unrelated changes. To help with creating focused PRs contributors are requested to create a distinct, meaningfully-named [branch](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-branches) for the changes associated with an area of concern. 
+
+If you’d like to submit feedback the traditional way, please send us feedback to our mailbox at IoTsecurity@nist.gov.
+
+# Feedback Questions
 
 The Cybersecurity for IoT program requests your feedback on the material in this catalog. Please consider the following questions:
 
@@ -35,8 +41,3 @@ This is a moderated platform. NIST reserves the right to reject, remove, or edit
 - makes unsupported accusations;
 - includes personally identifiable or business identifiable information according to Department of Commerce Office of Privacy and Open Government guidelines
 
-# Providing Feedback
-
-NIST encourages the use of GitHub mechanisms to provide feedback on our catalog contents.  Interested parties can share feedback and ask questions about resources in the [catalog repository](https://github.com/usnistgov/IoT-Device-Cybersecurity-Requirement-Catalogs/) using the [Issues](https://docs.github.com/en/github/managing-your-work-on-github/about-issues) feature. Specific change proposals can be contributed using the [Pull Request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) feature. 
-
-If you’d like to submit feedback the traditional way, please send us feedback to our mailbox at IoTsecurity@nist.gov.
