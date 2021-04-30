@@ -7,6 +7,11 @@ navOrder: 3
 navTitle: Background
 permalink: /background/
 ---
+# Contents
+
+- [Introduction](#introduction)
+- [NIST Cybersecurity Guidance](#nist-cybersecurity-guidance)
+- [The IoT Capabilties Catalog](#the-iot-capabilties-catalog)
 
 # Introduction
 
@@ -25,7 +30,7 @@ Both device cybersecurity capabilities and supporting non-technical capabilities
 **Figure 1: IoT Device Support for System Security**
 {: style="text-align: center;"}
 
-# NIST Guidance
+# NIST Cybersecurity Guidance
 
 NIST has developed extensive cybersecurity guidance over the years, which supports implementation of the [Federal Information Security Modernization Act (FISMA) of 2014](https://csrc.nist.gov/projects/risk-management). This guidance is designed to be technology neutral so it can be applied to any type of system, from the risk management framework ([NIST SP 800-37, Revision 2](https://csrc.nist.gov/publications/detail/sp/800-37/rev-2/final)) methodology to manage risk to the security and privacy controls ([NIST SP 800-53, Revision 5](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)) that identify the countermeasures and outcomes to protect information, systems, and the privacy of individuals. 
 
@@ -47,7 +52,7 @@ To that end, the program has developed a family of documents to provide that gui
 
 Further discussion of the relationship among these guidance documents can be found in the program's [December 2020 blog post](https://www.nist.gov/blogs/cybersecurity-insights/rounding-your-iot-security-requirements-draft-nist-guidance-federal). The contents of this on-line catalog provide explanatory details for implementing the core baselines defined in NISTIRs 8259A/B. Further information about the catalog can be found [here](catalog.md).
 
-# The Catalog
+# The IoT Capabilties Catalog
 
 NIST has developed a catalog of IoT device cybersecurity capabilities and supporting non-technical manufacturer capabilities and associated IoT device customer actions that are published on this site. NIST analyzed the controls found in NIST [SP 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final) to develop a catalog of key IoT device cybersecurity capabilities and supporting non-technical manufacturer capabilities to ensure that customers’ systems meet an established level of management, operational, and technical security control requirements. The catalog contains more granular capability statements that refine and add specificity to the high-level capabilities defined in the [NISTIRs 8259A](https://doi.org/10.6028/NIST.IR.8259A) and [8259B](https://csrc.nist.gov/publications/detail/nistir/8259b/draft). 
 
