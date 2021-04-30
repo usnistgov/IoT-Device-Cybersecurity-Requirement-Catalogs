@@ -21,13 +21,15 @@ permalink: /background/
 
 # Introduction
 
-Internet of Things (IoT) devices may create new pathways in and out of the network systems within which they are used. Such pathways make controlling the secure use of IoT devices within networking systems a new and challenging task. It is also challenging when trying to identify and mitigate the cybersecurity risks and then effectively protect the associated IoT data, interfaces, and linked systems. NIST’s [Cybersecurity for the Internet of Things](https://www.nist.gov/programs-projects/nist-cybersecurity-iot-program) program aims to help manufacturers and Federal government agencies better understand IoT device cybersecurity capabilities and supporting non-technical manufacturer capabilities needed for IoT devices used by Federal government agencies. The Cybersecurity for IoT program defines those terms as follows:
+Internet of Things (IoT) devices may create new pathways in and out of the networked systems within which they are used. Such pathways make controlling the secure use of IoT devices within networking systems a new and challenging task. It is also challenging when trying to identify and mitigate the cybersecurity risks and effectively protect the associated IoT data, interfaces, and linked systems. NIST’s [Cybersecurity for the Internet of Things](https://www.nist.gov/programs-projects/nist-cybersecurity-iot-program) program aims to help manufacturers and Federal government agencies better understand IoT device cybersecurity capabilities and supporting non-technical manufacturer capabilities needed for IoT devices used by Federal government agencies. 
 
-* _Device Cybersecurity Capabilities_ are a set of technical device abilities needed to support common cybersecurity controls that protect the customer’s devices and device data, systems, and ecosystems.
+The Cybersecurity for IoT program defines these terms as follows:
 
-* _Supporting Non-technical Capabilities_ are a set of non-technical supporting actions generally needed from manufacturers or other third parties to support common cybersecurity controls that protect an organization’s devices as well as device data, systems, and ecosystems. 
+* __Device Cybersecurity Capabilities__ are a set of technical device *abilities* needed to support common cybersecurity controls that protect the customer’s devices and device data, systems, and ecosystems.
 
-Both device cybersecurity capabilities and supporting non-technical capabilities are vital to a customer organization’s ability to implement security controls that the organization has allocated for their information systems. Figure 1 illustrates how device cybersecurity capabilities and supporting non-technical capabilities (grouped together as "Device Cybersecurity Requirements") support system/organizational security capabilities, which in turn satisfy organizational security requirements.
+* **Supporting Non-technical Capabilities** are a set of non-technical supporting *actions* generally needed from manufacturers or other third parties to support common cybersecurity controls that protect an organization’s devices as well as device data, systems, and ecosystems. 
+
+Both types of capabilities are vital to a customer organization’s ability to implement security controls that the organization has allocated for their information systems. Figure 1 illustrates how device cybersecurity capabilities and supporting non-technical capabilities (grouped together as "Device Cybersecurity Requirements") support system/organizational security capabilities, which in turn satisfy organizational security requirements.
   
   
   
