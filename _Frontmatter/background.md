@@ -3,7 +3,7 @@ layout: default
 title: "IoT Cybersecurity Catalog Background"
 category: "Introduction"
 tags: feedback NIST engage provide share submit 
-navOrder: 3
+navOrder: 1
 navTitle: Background
 permalink: /background/
 ---
@@ -11,6 +11,12 @@ permalink: /background/
 
 - [Introduction](#introduction)
 - [NIST Cybersecurity Guidance](#nist-cybersecurity-guidance)
+  - [SP 800-213 (draft)](#sp-800-213-draft)
+  - [NISTIR 8259](#nistir-8259)
+  - [NISTIR 8259A](#nistir-8259a)
+  - [NISTIR 8259B (draft)](#nistir-8259b-draft)
+  - [NISTIR 8259C (draft)](#nistir-8259c-draft)
+  - [NISTIR 8259D (draft)](#nistir-8259d-draft)
 - [The IoT Capabilties Catalog](#the-iot-capabilties-catalog)
 
 # Introduction
@@ -38,17 +44,29 @@ The challenges of IoT cybersecurity were described in [NISTIR 8228, _Considerati
 
 To that end, the program has developed a family of documents to provide that guidance:
 
-* Overall guidance for federal agencies seeking to integrate IoT devices into their systems and infrastructures is provided in [SP 800-213, _IoT Device Cybersecurity Guidance for the Federal Government_](https://csrc.nist.gov/publications/detail/sp/800-213/draft) (draft). The SP has background and recommendations to help federal agencies consider how an IoT device they plan to acquire can integrate into a federal information system. IoT devices and their support for security controls are presented in the context of organizational and system risk management. SP 800-213 provides guidance on considering system security from the device perspective. This allows for the identification of device cybersecurity requirements—the abilities and actions a federal agency will expect from an IoT device and its manufacturer and/or third parties, respectively.
-  
-* [NISTIR 8259](https://csrc.nist.gov/publications/detail/nistir/8259/final) provides manufacturers with guidance for helping their customers by providing necessary cybersecurity functionality and by providing customers with the cybersecurity-related information they need. This publication describes recommended activities related to cybersecurity that manufacturers should consider performing before their IoT devices are sold to customers. These foundational cybersecurity activities can help manufacturers lessen the cybersecurity-related efforts needed by customers, which in turn can reduce the prevalence and severity of IoT device compromises and the attacks performed using compromised devices.
+## SP 800-213 (draft)
 
-* [NISTIR 8259A](https://csrc.nist.gov/publications/detail/nistir/8259a/final) defines an IoT device cybersecurity capability core baseline, which is a set of technical device abilities generally needed to support common cybersecurity controls that protect an organization’s devices as well as device data, systems, and ecosystems. This publication provides organizations a starting point to use in identifying the device cybersecurity capabilities for new IoT devices they will manufacture, integrate, or acquire.
+Overall guidance for federal agencies seeking to integrate IoT devices into their systems and infrastructures is provided in [SP 800-213, _IoT Device Cybersecurity Guidance for the Federal Government_](https://csrc.nist.gov/publications/detail/sp/800-213/draft) (draft). The SP has background and recommendations to help federal agencies consider how an IoT device they plan to acquire can integrate into a federal information system. IoT devices and their support for security controls are presented in the context of organizational and system risk management. SP 800-213 provides guidance on considering system security from the device perspective. This allows for the identification of device cybersecurity requirements—the abilities and actions a federal agency will expect from an IoT device and its manufacturer and/or third parties, respectively.
 
-* [NISTIR 8259B](https://csrc.nist.gov/publications/detail/nistir/8259b/draft) (draft) defines an IoT device manufacturers’ non-technical supporting capability core baseline, which is a set of non-technical supporting capabilities generally needed from manufacturers and/or other third parties to support common cybersecurity controls that protect an organization’s devices as well as device data, systems, and ecosystems. This publication provides organizations a starting point to use in identifying the non-technical supporting capabilities needed in relation to IoT devices they will manufacture, integrate, or acquire. This non-technical baseline collects and makes explicit support capabilities like documentation, training, etc.
+## NISTIR 8259
 
-* [NISTIR 8259C](https://csrc.nist.gov/publications/detail/nistir/8259c/draft) (draft) describes a profiling process  (usable by any organization) that starts with the NISTIR 8259A/B core baselines and explains how to integrate those baselines with organization- or application-specific requirements (e.g., industry standards, regulatory guidance) to develop a IoT cybersecurity profile suitable for specific IoT device customers or applications. The process could also be used by organizations seeking to procure IoT technology or by manufacturers looking to match their products to customer requirements. The 8259C process was used to create the profile contained in NISTIR 8259D.
+[NISTIR 8259](https://csrc.nist.gov/publications/detail/nistir/8259/final) provides manufacturers with guidance for helping their customers by providing necessary cybersecurity functionality and by providing customers with the cybersecurity-related information they need. This publication describes recommended activities related to cybersecurity that manufacturers should consider performing before their IoT devices are sold to customers. These foundational cybersecurity activities can help manufacturers lessen the cybersecurity-related efforts needed by customers, which in turn can reduce the prevalence and severity of IoT device compromises and the attacks performed using compromised devices.
 
-* [NISTIR 8259D](https://csrc.nist.gov/publications/detail/nistir/8259d/draft) (draft) provides a worked-example result of applying the NISTIR 8259C process, focused on the federal government customer space, where the requirements of the FISMA process and the [SP 800-53B, _Control Baselines for Information Systems and Organizations_](https://csrc.nist.gov/publications/detail/sp/800-53b/final) security and privacy controls catalog are the essential guidance. NISTIR 8259D provides a device-centric, cybersecurity-oriented profile of the NISTIR 8259A/B core baselines, calibrated against the FISMA low impact baseline as an example of the criteria for minimal securability for federal use cases.
+## NISTIR 8259A
+
+[NISTIR 8259A](https://csrc.nist.gov/publications/detail/nistir/8259a/final) defines an IoT device cybersecurity capability core baseline, which is a set of technical device abilities generally needed to support common cybersecurity controls that protect an organization’s devices as well as device data, systems, and ecosystems. This publication provides organizations a starting point to use in identifying the device cybersecurity capabilities for new IoT devices they will manufacture, integrate, or acquire.
+
+## NISTIR 8259B (draft)
+
+[NISTIR 8259B](https://csrc.nist.gov/publications/detail/nistir/8259b/draft) (draft) defines an IoT device manufacturers’ non-technical supporting capability core baseline, which is a set of non-technical supporting capabilities generally needed from manufacturers and/or other third parties to support common cybersecurity controls that protect an organization’s devices as well as device data, systems, and ecosystems. This publication provides organizations a starting point to use in identifying the non-technical supporting capabilities needed in relation to IoT devices they will manufacture, integrate, or acquire. This non-technical baseline collects and makes explicit support capabilities like documentation, training, etc.
+
+## NISTIR 8259C (draft)
+
+[NISTIR 8259C](https://csrc.nist.gov/publications/detail/nistir/8259c/draft) (draft) describes a profiling process  (usable by any organization) that starts with the NISTIR 8259A/B core baselines and explains how to integrate those baselines with organization- or application-specific requirements (e.g., industry standards, regulatory guidance) to develop a IoT cybersecurity profile suitable for specific IoT device customers or applications. The process could also be used by organizations seeking to procure IoT technology or by manufacturers looking to match their products to customer requirements. The 8259C process was used to create the profile contained in NISTIR 8259D.
+
+## NISTIR 8259D (draft)
+
+[NISTIR 8259D](https://csrc.nist.gov/publications/detail/nistir/8259d/draft) (draft) provides a worked-example result of applying the NISTIR 8259C process, focused on the federal government customer space, where the requirements of the FISMA process and the [SP 800-53B, _Control Baselines for Information Systems and Organizations_](https://csrc.nist.gov/publications/detail/sp/800-53b/final) security and privacy controls catalog are the essential guidance. NISTIR 8259D provides a device-centric, cybersecurity-oriented profile of the NISTIR 8259A/B core baselines, calibrated against the FISMA low impact baseline as an example of the criteria for minimal securability for federal use cases.
 
 Further discussion of the relationship among these guidance documents can be found in the program's [December 2020 blog post](https://www.nist.gov/blogs/cybersecurity-insights/rounding-your-iot-security-requirements-draft-nist-guidance-federal). The contents of this on-line catalog provide explanatory details for implementing the core baselines defined in NISTIRs 8259A/B. Further information about the catalog can be found [here](catalog.md).
 
