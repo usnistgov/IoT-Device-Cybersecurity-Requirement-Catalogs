@@ -31,7 +31,7 @@ The Cybersecurity for IoT program defines these terms as follows:
 
 * **Supporting Non-technical Capabilities** are a set of non-technical supporting *actions* generally needed from manufacturers or other third parties to support common cybersecurity controls that protect an organization’s devices as well as device data, systems, and ecosystems. 
 
-Both types of capabilities are vital to a customer organization’s ability to implement security controls that the organization has allocated for their information systems. Figure 1 illustrates how device cybersecurity capabilities and supporting non-technical capabilities (grouped together as "Device Cybersecurity Requirements") support system/organizational security capabilities, which in turn satisfy organizational security requirements.
+Both types of capabilities are vital to a customer organization’s ability to implement security controls that the organization has allocated for their information systems. Figure 1 illustrates how device cybersecurity capabilities and supporting non-technical capabilities (grouped together as "Security Functionality") support system/organizational security capabilities, which in turn satisfy organizational security requirements.
   
   
   
