@@ -66,7 +66,7 @@ Overall guidance for federal agencies seeking to integrate IoT devices into thei
 
 ## NISTIR 8259C (draft)
 
-[NISTIR 8259C, _Creating a Profile Using the IoT Core Baseline and Non-Technical Baseline_](https://csrc.nist.gov/publications/detail/nistir/8259c/draft) (draft) describes a profiling process  (usable by any organization) that starts with the NISTIR 8259A/B core baselines and explains how to integrate those baselines with organization- or application-specific requirements (e.g., industry standards, regulatory guidance) to develop a IoT cybersecurity profile suitable for specific IoT device customers or applications. The process could also be used by organizations seeking to procure IoT technology or by manufacturers looking to match their products to customer requirements. The 8259C process was used to create the profile contained in NISTIR 8259D.
+[NISTIR 8259C, _Creating a Profile Using the IoT Core Baseline and Non-Technical Baseline_](https://csrc.nist.gov/publications/detail/nistir/8259c/draft) (draft) describes a profiling process  (usable by any organization) that starts with the NISTIR 8259A/B core baselines and explains how to integrate those baselines with organization- or application-specific requirements (e.g., industry standards, regulatory guidance) to develop a IoT cybersecurity profile suitable for specific IoT device customers or applications. The process could be used by organizations seeking to procure IoT technology or by manufacturers looking to match their products to customer requirements. The 8259C process was used to create the federal profile contained in NISTIR 8259D.
 
 ## NISTIR 8259D (draft)
 
