@@ -9,6 +9,8 @@ permalink: /background/
 ---
 # Contents
 
+This document provides background information on NIST's Cybersecurity for IoT guidance and this on-line catalog.
+
 - [Introduction](#introduction)
 - [NIST Cybersecurity Guidance](#nist-cybersecurity-guidance)
   - [SP 800-213 (draft)](#sp-800-213-draft)
@@ -21,7 +23,7 @@ permalink: /background/
 
 # Introduction
 
-Internet of Things (IoT) devices may create new pathways in and out of the networked systems within which they are used. Such pathways make controlling the secure use of IoT devices within networking systems a new and challenging task. It is also challenging when trying to identify and mitigate the cybersecurity risks and effectively protect the associated IoT data, interfaces, and linked systems. NIST’s [Cybersecurity for the Internet of Things](https://www.nist.gov/programs-projects/nist-cybersecurity-iot-program) program aims to help manufacturers and Federal government agencies better understand IoT device cybersecurity capabilities and supporting non-technical manufacturer capabilities needed for IoT devices used by Federal government agencies. 
+Internet of Things (IoT) devices may create new pathways in and out of the networked systems within which they are used. Such pathways make controlling the secure use of IoT devices within networked systems a new and challenging task. It is also challenging when trying to identify and mitigate the cybersecurity risks and effectively protect the associated IoT data, interfaces, and linked systems. NIST’s [Cybersecurity for the Internet of Things](https://www.nist.gov/programs-projects/nist-cybersecurity-iot-program) program aims to help manufacturers and Federal government agencies better understand IoT device cybersecurity capabilities and supporting non-technical manufacturer capabilities needed for IoT devices used by Federal government agencies. This guidance is also generally useful for other categories of IoT device customers and other participants in the IoT "ecosystem".
 
 The Cybersecurity for IoT program defines these terms as follows:
 
