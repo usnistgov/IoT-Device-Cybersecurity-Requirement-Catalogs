@@ -10,25 +10,8 @@ permalink: /nontechnical/manufacturer/information/
 
 # C.&nbsp;&nbsp;&nbsp;Information Dissemination – From the Manufacturer and/or Supporting Entity
 
-<div style="display:none">
-<script>
-  function openExamples(){
-
-      var examples = document.getElementsByTagName("details");
-      var i;
-      for(i = 0; i < examples.length; i++){
-
-          examples[i].open = (examples[i].open === false) ? true : false;
-      }
-  }
-</script>
-</div>
-
-<div class="toggle">
-<label for="toggle1">Show Examples</label>
-<input type="checkbox" onClick="openExamples()" id="toggle1" />
-<span></span>
-</div>
+{% include openExamples.html %} 
+{:latex-ignore="true"}
 
 **The ability for the manufacturer and/or supporting entity to broadcast and distribute information related to cybersecurity of the IoT device.**
 
@@ -40,14 +23,17 @@ Customer organizations may need to know the security practices of the manufactur
 
 Customer organizations can use the associated documentation to support their evaluation of the adequacy of the security provided by the manufacturer and/or supporting entities and related IoT device. Customer organizations who must ensure IoT devices comply with the associated laws and regulations for which they are covered can use the documentation to support their IoT purchase decisions and risk assessments.
 
-## 1). &nbsp;&nbsp;The procedures to support the ability for the manufacturer and/or supporting entity to alert customers of the IoT device about cybersecurity relevant information.  <br/>
+## 1). &nbsp;&nbsp;The procedures to support the ability for the manufacturer and/or supporting entity to alert customers of the IoT device about cybersecurity relevant information.
 {: #Info1 }
-  This section of capabilities includes non-technical communications and actions that manufacturers can provide to alert IoT device customers about cybersecurity    information relevant to the IoT device. These capabilities support on-going cybersecurity of the device by keeping customers informed of developments and new information after the initial documentation was developed and provided. Customer organizations may need to be informed about cybersecurity-related activities on the IoT device, especially if the IoT device is critical to their operations.  <br/><br/>
+  This section of capabilities includes non-technical communications and actions that manufacturers can provide to alert IoT device customers about cybersecurity information relevant to the IoT device. These capabilities support on-going cybersecurity of the device by keeping customers informed of developments and new information after the initial documentation was developed and provided. Customer organizations may need to be informed about cybersecurity-related activities on the IoT device, especially if the IoT device is critical to their operations.  <br/><br/>
   Manufacturers and/or their supporting entities can provide security alerts, advisories and other types of information, such as those provided as examples in the section, to IoT device customers to maintain situational awareness throughout the IoT device customer&#39;s system.
   
- **a. Software update availability or application** <br/>
-   1. **Data Protection: Establish communications with the details necessary for maintaining IoT device data integrity during software modifications.**  <br/><br/>
-    Information that may be necessary to provide about maintaining data integrity during software modifications include details and actions such as: 
+ **a. Software update availability or application**
+
+   1. **Data Protection: Establish communications with the details necessary for maintaining IoT device data integrity during software modifications.**
+    
+      Information that may be necessary to provide about maintaining data integrity during software modifications include details and actions such as: 
+
       - Providing details for how to review and update the IoT device and associated systems while preserving data integrity. 
         <details><summary style="display:list-item;" markdown='span'> _Examples_ </summary>
 
@@ -55,9 +41,12 @@ Customer organizations can use the associated documentation to support their eva
           - _The manufacturer can provide instructions for how to create backups of the data prior to performing updates, and then how to do a comparison of the data in the device after the update with the backup data to ensure data integrity._ 
         </details>
       - Providing information detailing the trigger events that will result in automated updates to the IoT devices, or will indicate the need for a manual update. 
-      - Providing communications with details about updates and possible impacts to IoT device data integrity (e.g., alerting users if an update will delete data).<br/><br/>
-   2. **Software Update: Establish communications with the details necessary to meet customer requirements for software updates for flaw remediation and security-relevant reasons.**<br/><br/>
-    Information that may be necessary to provide include details and actions such as: 
+      - Providing communications with details about updates and possible impacts to IoT device data integrity (e.g., alerting users if an update will delete data).
+
+   2. **Software Update: Establish communications with the details necessary to meet customer requirements for software updates for flaw remediation and security-relevant reasons.**
+
+      Information that may be necessary to provide include details and actions such as: 
+
       - Providing details for performing the tests necessary for IoT device and related system software updates related to flaw remediation, for effectiveness and to identify potential side effects before installation.
       - Providing communications describing the types of security and privacy tests necessary for the IoT device and software before installation.
       - Providing the details necessary for the installation of IoT devices and associated systems security-relevant software updates within an organizationally-defined time period from the vendor release of the updates.
@@ -67,9 +56,12 @@ Customer organizations can use the associated documentation to support their eva
           - _Communicating to IoT device customers and other stakeholders the IoT device system environment dependencies and/or potential impacts for the updates._
          </details>
  
- **b. End of term of support or functionality for the IoT device**<br/>
-  1. **Unsupported IoT Device: Establish communications describing the security impacts of using the IoT device when the manufacturer no longer supports or provides functionality for the IoT device.**<br/><br/>
-   Such information is important for security risk mitigations since when manufacturers and/or their supporting entities no longer provide critical software patches, this provides a substantial opportunity for adversaries to exploit new weaknesses discovered in the currently installed IoT devices. Information that may be necessary to provide include details and actions such as: 
+ **b. End of term of support or functionality for the IoT device**
+
+  1. **Unsupported IoT Device: Establish communications describing the security impacts of using the IoT device when the manufacturer no longer supports or provides functionality for the IoT device.**
+
+     Such information is important for security risk mitigations since when manufacturers and/or their supporting entities no longer provide critical software patches, this provides a substantial opportunity for adversaries to exploit new weaknesses discovered in the currently installed IoT devices. Information that may be necessary to provide include details and actions such as: 
+
      - Providing information with the details necessary to determine exceptions and/or alternatives to replacing unsupported IoT devices.
         <details><summary style="display:list-item;" markdown='span'> _Example_ </summary>
 
@@ -82,24 +74,33 @@ Customer organizations can use the associated documentation to support their eva
         </details>
      - Providing information with the details describing service contract completion and the situations that define the end of the system integrator or external service provider relationship. This is important to know for re-compete, potential changes in providers, and also to manage system end-of-device-life processes.
 
- **c. Needed maintenance operations**<br/>
-  1. **Cybersecurity State Awareness: Establish communications with the details for responding to privacy and security and maintenance alerts, advisories, and directives from outside of their organization.**<br/><br/>
-   Information that may be necessary to provide include details and actions such as: 
+ **c. Needed maintenance operations**
+
+  1. **Cybersecurity State Awareness: Establish communications with the details for responding to privacy and security and maintenance alerts, advisories, and directives from outside of their organization.**
+   
+     Information that may be necessary to provide include details and actions such as: 
+
      - Providing information with the details necessary to disseminate privacy and security alerts, advisories, and directives about the IoT devices, and associated systems and then take the necessary actions.
      - Providing information to IoT device customers necessary to inform the review and update of the IoT device systems and services practices.
 
- **d. Cybersecurity and vulnerabilities alerts**<br/>
-  1. **Cybersecurity State Awareness: Establish communications with information necessary for IoT device customers to receive the manufacturer&#39;s external and internal security alerts, advisories, and directives.**<br/><br/>
-   Information that may be necessary to support alerts, advisories and directives include details and actions such as: 
+ **d. Cybersecurity and vulnerabilities alerts**
+
+  1. **Cybersecurity State Awareness: Establish communications with information necessary for IoT device customers to receive the manufacturer&#39;s external and internal security alerts, advisories, and directives.**
+   
+     Information that may be necessary to support alerts, advisories and directives include details and actions such as: 
+
      - Providing information with the details necessary to implement management and operational controls for how and when IoT device customers will receive up-to-date security and privacy information from the manufacturer, or supporting entity.
         <details><summary style="display:list-item;" markdown='span'> _Example_ </summary>
 
          - _Information may be provided to the IoT device customer on an ongoing basis about IoT devices and associated systems, such as information system security alerts, advisories. There may also be directives to take actions for the device issued from IoT device manufacturers, information security researchers, and other sources the organization determines to be valuable to receive from the manufacturer._
         </details>
      - Providing information with the details and instructions necessary to receive the manufacturer&#39;s security and privacy updates, such as IoT device information system security and privacy alerts, advisories, directives, security and/or privacy research, and other information that would be valuable for IoT device customers to help ensure security and privacy of the IoT device.
-     - Providing information to IoT device customers to inform them when to review and update the IoT device systems, based upon specific device states, and to provide a description of the services practices.<br/><br/>
-  2. **Device Acquisition and Maintenance: Establish communications notifying IoT device customers they should review and update the IoT device, systems and services acquisition practices.**<br/><br/>
-   Information that may be necessary to provide for such updates and services include details and actions such as: 
+     - Providing information to IoT device customers to inform them when to review and update the IoT device systems, based upon specific device states, and to provide a description of the services practices.
+
+  2. **Device Acquisition and Maintenance: Establish communications notifying IoT device customers they should review and update the IoT device, systems and services acquisition practices.**
+
+     Information that may be necessary to provide for such updates and services include details and actions such as: 
+
      - Providing the instructions for following the manufacturer&#39;s updates to the IoT device, systems and services acquisition practices.
      - Providing the details necessary for IoT device customers to document attempts to obtain IoT device components, or IoT device system service information when such information is either unavailable or nonexistent, and documenting the appropriate response for the manufacturer&#39;s employees to follow.
         <details><summary style="display:list-item;" markdown='span'> _Examples_ </summary>
@@ -107,19 +108,24 @@ Customer organizations can use the associated documentation to support their eva
          - _Providing IoT device customers with procedures detailing how to submit questions about IoT device parts, use, and other related issues._
          - _Describing how to get components for the IoT device, or how to get the IoT device fixed, when necessary._<br/>
         </details>
-  <br/>
-  3. **Device Security: Establish communications with the details necessary for performing periodic IoT device security checks and/or audits.**<br/><br/>
-   Information that may be necessary to provide about performing security checks and audits include details and actions such as: 
+  
+  3. **Device Security: Establish communications with the details necessary for performing periodic IoT device security checks and/or audits.**
+
+     Information that may be necessary to provide about performing security checks and audits include details and actions such as: 
+
      - Providing the details requested by IoT device customersto perform periodic checks and/or audits to ensure IoT device security controls are functioning as intended following maintenance and repairs.
      - Providing IoT device customers, upon their request, with the tools, assistance, instructions, and other support for the IoT device to perform audit and log maintenance and repairs operations.
 
-## 2). &nbsp;&nbsp;The procedures to support the ability for the manufacturer and/or supporting entity to notify customers of cybersecurity related events and information related to an IoT device throughout the support lifecycle. <br />
+## 2). &nbsp;&nbsp;The procedures to support the ability for the manufacturer and/or supporting entity to notify customers of cybersecurity related events and information related to an IoT device throughout the support lifecycle.
 {: #Info2 }
  A well-defined manufacturer cybersecurity support life cycle provides the foundation for the successful and secure implementation and operation of IoT devices within customer systems. Customer organizations will want to stay informed about the cybersecurity of IoT devices throughout the lifetime of the device to allow them to fine tune their mitigations and maintain an adequate level of risk assurance. This section of capabilities includes non-technical communications and actions that manufacturers can provide to alert IoT device customers about cybersecurity information relevant to the IoT device to enable IoT device customers to have the most effective security controls for the IoT device throughout the entire life of the device.
 
- **a. New IoT device vulnerabilities, associated details and mitigation actions**<br />
-  1. **Device Security: Establish communications to notify customers of cybersecurity related events throughout the full time that the IoT device is in use.**<br/><br/>
-   Information that may be necessary to provide include details and actions such as: 
+ **a. New IoT device vulnerabilities, associated details and mitigation actions**
+
+  1. **Device Security: Establish communications to notify customers of cybersecurity related events throughout the full time that the IoT device is in use.**
+
+     Information that may be necessary to provide include details and actions such as: 
+
      - Providing communications for cybersecurity related events involving or related to the IoT device.
         <details><summary style="display:list-item;" markdown='span'> _Examples_ </summary>
 
@@ -129,8 +135,11 @@ Customer organizations can use the associated documentation to support their eva
          - _Infrastructure changes within the manufacturer&#39;s supporting entities, such as any new operating system rollout, hardware upgrades, or replacements due to field failures, or data storage architecture changes._
         </details>
 
- **b. Breaches in customer IoT devices and instructions for making associated fixes or actions to prevent similar breaches of other devices.**<br />
-  1. **Cybersecurity State Awareness: Establish communications for responding to IoT device breaches, associated fixes to vulnerabilities allowing the breaches, and breaches that have occurred for similar types of IoT devices.**<br/><br/>
-   Information that may be necessary to provide include details and actions such as: 
+ **b. Breaches in customer IoT devices and instructions for making associated fixes or actions to prevent similar breaches of other devices.**
+
+  1. **Cybersecurity State Awareness: Establish communications for responding to IoT device breaches, associated fixes to vulnerabilities allowing the breaches, and breaches that have occurred for similar types of IoT devices.**
+   
+     Information that may be necessary to provide include details and actions such as: 
+
      - Providing security incident and breach information in a timely manner.
      - Using notification and communications that include incident and breach information for the customer&#39;s IoT device.
