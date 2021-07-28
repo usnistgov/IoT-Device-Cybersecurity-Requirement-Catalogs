@@ -10,27 +10,12 @@ permalink: /nontechnical/manufacturer/documentation/
 
 # A. &nbsp;&nbsp;&nbsp;Documentation from the Manufacturer
 
-<div style="display:none">
-<script>
-  function openExamples(){
 
-      var examples = document.getElementsByTagName("details");
-      var i;
-      for(i = 0; i < examples.length; i++){
-
-          examples[i].open = (examples[i].open === false) ? true : false;
-      }
-  }
-</script>
-</div>
-
-<div class="toggle">
-<label>_Show Examples_</label>
-<input type="checkbox" onChange="openExamples()" id="toggle1" />
-<span></span>
-</div>
+{% include openExamples.html %} 
+{:latex-ignore="true"}
 
 **The ability for the manufacturer and/or the manufacturer&#39;s supporting entity, to create, gather, disseminate, and store information relevant to cybersecurity of the IoT device prior to customer purchase, and throughout the development of a device and its subsequent lifecycle.**
+
 
 Documentation of cybersecurity information helps potential IoT device customers to make informed purchase decisions that support their organization&#39;s cybersecurity requirements for IoT devices and/or systems where they are used. Documentation of important cybersecurity information also then helps enable secure use of the IoT device by customers after the purchase since it serves as the source of information for customers.
 
@@ -42,46 +27,56 @@ This section of capabilities includes non-technical communications and actions t
 2. understanding how implementing the IoT device will possibly introduce risks into their processing system(s), and
 3. describing the supporting actions and information the IoT device manufacturer will provide.
 
+
 The term &quot;establish communications&quot; is used throughout this section to mean developing, documenting, implementing, distributing/providing, and maintaining the documentation and performing the actions involved with the non-technical capabilities.
 
-
-## 1). &nbsp;&nbsp;Document assumptions made during the development process and other expectations related to the IoT device.<br/> 
+## 1). &nbsp;&nbsp;Document assumptions made during the development process and other expectations related to the IoT device. 
 {: #Doc1 }
  This section of capabilities includes non-technical communications and actions that manufacturers can provide IoT device customers to help them understand the manufacturer&#39;s assumptions made during development about how their customers would use the device, and the expectations for the security controls the customers would implement for the device, both technical and the non-technical controls beyond the technical device capabilities. This documentation will provide important information to the IoT device customer describing the additional actions the customer needs to take related to implementing the IoT device based upon the assumptions and expectations the manufacturer has for their customers.
 
  **a. Expected customers and use cases**
-  1. **Device acquisition and maintenance: Establish communications describing the**  **IoT device security, authorization, and supporting maintenance requirements.**<br/><br/>
-   Manufacturers may need to provide information to customers to support the customers&#39; intended goals and purposes for using the device, as determined by each customer&#39;s assessment of cybersecurity risk created by the IoT device within the associated customer system, and to meet each customer&#39;s organizational and legal requirements. To support these needs, manufacturers are encouraged to include details and actions such as:
-     - Providing details for the device security capabilities, along with how to implement the security management and operational controls, and supporting maintenance activities, for the IoT device.
-        <details><summary style="display:list-item;" markdown='span'> _Examples_ </summary>
 
-         - _This type of information is often necessary to support the IoT device customer&#39;s organizational mission/business process planning requirements, acquisition policies, legal compliance, and other possible reasons._
-         - _Providing details about the frequency, authorization requirements, and source of maintenance activities, for updates to the IoT device software, firmware and hardware. This information can then support the IoT device integration within each customer&#39;s own internal security management and maintenance policies and procedures._
-         - _Providing details for the operating systems compatible with the security software used by the IoT device enables customers to determine if the IoT device is even feasible for implementation within their system, and if so, to help identify any additional security controls that must be related in the system around the use of the IoT device._
-         - _Providing instructions for establishing and changing security settings within the IoT device allows customers to incorporate this information within their own procedures, and supports consistent and accurate use of those controls, to mitigate risks of not using the security settings appropriately._
-	</details>
+  1. **Device acquisition and maintenance: Establish communications describing the IoT device security, authorization, and supporting maintenance requirements.**
+
+     Manufacturers may need to provide information to customers to support the customers&#39; intended goals and purposes for using the device, as determined by each customer&#39;s assessment of cybersecurity risk created by the IoT device within the associated customer system, and to meet each customer&#39;s organizational and legal requirements. To support these needs, manufacturers are encouraged to include details and actions such as:
+
+     - Providing details for the device security capabilities, along with how to implement the security management and operational controls, and supporting maintenance activities, for the IoT device.
+	<details>
+          <summary style="display:list-item;" markdown='span'> _Examples_ </summary>
+
+        - _This type of information is often necessary to support the IoT device customer&#39;s organizational mission/business process planning requirements, acquisition policies, legal compliance, and other possible reasons._
+        - _Providing details about the frequency, authorization requirements, and source of maintenance activities, for updates to the IoT device software, firmware and hardware. This information can then support the IoT device integration within each customer&#39;s own internal security management and maintenance policies and procedures._
+        - _Providing details for the operating systems compatible with the security software used by the IoT device enables customers to determine if the IoT device is even feasible for implementation within their system, and if so, to help identify any additional security controls that must be related in the system around the use of the IoT device._
+        - _Providing instructions for establishing and changing security settings within the IoT device allows customers to incorporate this information within their own procedures, and supports consistent and accurate use of those controls, to mitigate risks of not using the security settings appropriately._ 
+        </details>
      - Providing details about the types of, and situations that trigger, local and/or remote maintenance activities required once the device is purchased and deployed in the organization&#39;s digital ecosystem or within an individual consumer&#39;s home.
      - Describing the ability to establish management roles to perform specified information security activities, and to establish security requirements, for the IoT device.
-        <details><summary style="display:list-item;" markdown='span'> _Example_ </summary>
+       <details>
+         <summary style="display:list-item;" markdown='span'> _Example_ </summary>
 
          - _Organizational mission/business process planning, and information security policies, often require management roles to be established for computing devices, such as IoT devices. This type of documentation supports customers in their need to meet requirements for assigning roles to support the IoT device, and to ensure IoT device security requirements are comprehensively managed by those roles._
-        </details>
+       </details>
      - Establishing and providing communications that describe the suggested types of resources necessary to protect the associated information system(s) within which the IoT device will be deployed.
-        <details><summary style="display:list-item;" markdown='span'> _Example_ </summary>
+       <details>
+         <summary style="display:list-item;" markdown='span'> _Example_ </summary>
 
          - _When making purchase decisions for computing devices, such as IoT devices, that will be implemented within the corporate system, organizations often require information about the related resources (e.g., storage capacities, network bandwidth, operating systems) required to support the device, as well as the resources necessary to secure the IoT device within the system. Such resources may be provided from the IoT device itself, or the manufacturer may recommend additional or primary security protections from outside the IoT device, in which case details for those external resources&#39; protections will also be needed. Such information is typically required to support the organization&#39;s capital planning and investment control (CPIC) process._
-        </details>
+       </details>
+
      - Providing details about the IoT device data security and privacy capabilities and limitations, and the types of risks mitigated by the capabilities.
-        <details><summary style="display:list-item;" markdown='span'> _Examples_ </summary>
+       <details>
+         <summary style="display:list-item;" markdown='span'> _Examples_ </summary>
 
          - _Describing the security risks of integrating the IoT device within a system (access to data in transit, creating a pathway to other network components, etc.)._
          - _Describing suggested risk reduction actions using IoT device capabilities (encrypting data in transit, requiring authorization for specific roles&#39; access to go beyond the IoT device)._
-        </details>
+       </details>
+
      - Providing instructions and documentation describing the physical and logical access capabilities necessary to the IoT device to perform each type of maintenance activity.
         <details><summary style="display:list-item;" markdown='span'> _Example_ </summary>
 
          - _Organizations need to determine the access authorizations and roles for personnel to perform logical and physical access maintenance on the IoT device. To make the determinations, the organizations need to understand the activities required for each of the IoT device maintenance activities._
         </details>
+
      - Providing other information and actions as necessary for physically securing, and securely using, the IoT device based upon the IoT device use, purpose, and other contextual factors related to the digital ecosystem(s) within which they are intended to be used.
         <details><summary style="display:list-item;" markdown='span'> _Examples_ </summary>
        
@@ -89,23 +84,27 @@ The term &quot;establish communications&quot; is used throughout this section to
          - _Using wi-fi security to protect logical access to the drone._
          - _Using two-factor authentication to logically access the drone._
          - _Using geo-fencing capabilities to disable drone usage capabilities when the device is stolen._
-	</details>
+        </details> 
 
- **b. Physical use and characteristics**<br/>
-  1. **Device Security: Establish communications describing options for implementing security oversight of IoT device users connected to the network.**<br/><br/>
-   Information that may be necessary to provide, to support the IoT device customers requiring organizational oversight for using the IoT device, when the IoT device users are also connected to the system networks, and as determined by the customer&#39;s and/or manufacturer&#39;s assessment of cybersecurity risk created by the IoT device. To support these needs, include details and actions such as:
+ **b. Physical use and characteristics**
+
+  1. **Device Security: Establish communications describing options for implementing security oversight of IoT device users connected to the network.**
+
+     Information that may be necessary to provide, to support the IoT device customers requiring organizational oversight for using the IoT device, when the IoT device users are also connected to the system networks, and as determined by the customer&#39;s and/or manufacturer&#39;s assessment of cybersecurity risk created by the IoT device. To support these needs, include details and actions such as:
      - Providing descriptions of the types of physical access practices, and manufacturer suggested hardware or other types of devices, that can be used to prevent unauthorized physical access to the IoT device based upon the determined risk level that the device brings to the IoT customer&#39;s system.
         <details><summary style="display:list-item;" markdown='span'> _Examples_ </summary>
 
          - _Keeping the IoT device within a secured room, locker, or some other type of container to keep unauthorized users from physically using the IoT device controls, exploiting device vulnerabilities or capabilities to access other system components through the IoT device interface._
          - _Configuring the device to keep cybersecurity status and associated information, such as the associated network details, from being displayed when the IoT device will be located within an area where unauthorized users are or may be present._
          - _Using keys, locks, combinations, and card readers to create a physical barrier to IoT device when it is connected to the network._
-       </details>
+        </details>
+
      - Providing descriptions of the physical access security procedures the manufacturer recommends to limit physical access to the device, and to associated device controls.
         <details><summary style="display:list-item;" markdown='span'> _Example_ </summary>
 
          - _Providing such information will support the IoT device customer&#39;s needs to comply with their internal security policies, applicable laws, executive orders, directives, policies, regulations, standards, and guidelines for limiting access, through use of the IoT device connection to the network._
         </details>
+
      - Providing details of indications, and recommendations for how to determine, when unauthorized physical access to the IoT device was or is attempted, or is occurring.
         <details><summary style="display:list-item;" markdown='span'> _Examples_ </summary>
 
@@ -115,9 +114,12 @@ The term &quot;establish communications&quot; is used throughout this section to
          - _Setting audible alarms on the IoT device._
         </details>
  
- **c. Network access and requirements**<br/>
-  1. **Device Security: Establish communications explaining how to accomplish logical organizational oversight for using the IoT device.**<br/><br/>
-   Information that may be necessary to provide to explain how to accomplish logical oversight of the IoT device include details and actions such as:
+ **c. Network access and requirements**
+
+  1. **Device Security: Establish communications explaining how to accomplish logical organizational oversight for using the IoT device.**
+
+     Information that may be necessary to provide to explain how to accomplish logical oversight of the IoT device include details and actions such as:
+
      - Providing information to IoT device customers with recommendations or suggestions for implementing management and operational controls.
         <details><summary style="display:list-item;" markdown='span'> _Example_ </summary>
 
@@ -130,9 +132,12 @@ The term &quot;establish communications&quot; is used throughout this section to
          - _Instructions for how to use the IoT device technical ability to assign read-only access to device data for auditors._
          - _Instructions for how to use the IoT device technical ability to assign full access to the device for IoT device admins._
         </details>
-     - Providing recommendations to IoT device customers for using the technical IoT device security controls, or external devices or applications communicating with the IoT, to establish a variety of oversight capabilities for the IoT device users.<br/><br/>
-  2. **Logical Access to Interfaces: Establish communications that describe the ways in which the IoT device can logically access devices on the NIST-approved products list.**<br/><br/>
-   Information that may be necessary to provide include details and actions such as:
+     - Providing recommendations to IoT device customers for using the technical IoT device security controls, or external devices or applications communicating with the IoT, to establish a variety of oversight capabilities for the IoT device users.
+
+  2. **Logical Access to Interfaces: Establish communications that describe the ways in which the IoT device can logically access devices on the NIST-approved products list.**
+
+     Information that may be necessary to provide include details and actions such as:
+
      - Providing information and details to the IoT device customers indicating if and when the IoT device was placed on the Federal Information Processing Standards (FIPS) 201 approved products list for Personal Identity Verification (PIV) capability, as applicable to the use and purpose of the IoT device.
         <details><summary style="display:list-item;" markdown='span'> _Example_ </summary>
 
@@ -146,9 +151,12 @@ The term &quot;establish communications&quot; is used throughout this section to
      - Providing documentation with suggested ways in which customers can implement compensating controls around the IoT device if the IoT device cannot support PIV cards.
      - Providing documentation explaining how to configure the IoT device to technically support PIV implementation, accessibility and interfaces.
      - Providing detailed instructions for how to integrate the IoT device within a PIV system.
-     - Providing an attestation, from an authoritative source, that the IoT device can be used in compliance with Federal agency requirements, with associated descriptions for how the agency can accomplish this, if the IoT device cannot be integrated within a PIV system.<br/><br/>
-  3. **Logical Access to Interfaces: Establish communications detailing the IoT device interface and access controls capabilities.**<br/><br/>
-   Information that may be necessary to provide include details and actions such as:
+     - Providing an attestation, from an authoritative source, that the IoT device can be used in compliance with Federal agency requirements, with associated descriptions for how the agency can accomplish this, if the IoT device cannot be integrated within a PIV system.
+
+  3. **Logical Access to Interfaces: Establish communications detailing the IoT device interface and access controls capabilities.**
+
+     Information that may be necessary to provide include details and actions such as:
+
      - Providing details for how to implement IoT device logical and remote access controls through device interfaces for data transmission between devices and subjects, objects, systems and components within the system.
      - Providing documentation describing all the IoT device logical and remote interface access controls.
      - Providing detailed instructions for how to restrict access to the IoT device interface for both users of the interface, and for the data that can be transmitted through that interface, and describing if and how interface restrictions can be defined.
@@ -181,9 +189,10 @@ The term &quot;establish communications&quot; is used throughout this section to
 
          - _Instead of using controls within a smart coffee maker device, using a cloud-based platform, an application installed within the system where the IoT device is implemented, and/or a mobile app to establish and manage the roles used within the smart coffee maker; such as defining the individuals within an &quot;admin&quot; type of role, or a &quot;general use&quot; role._<br/>
         </details>
-  <br/>
-  4. **Logical Access to Interfaces: Establish communications describing situations where identification and authentication are not needed for the IoT device.**<br/><br/>
-   Information that may be necessary to provide include details and actions such as:
+ 
+  4. **Logical Access to Interfaces: Establish communications describing situations where identification and authentication are not needed for the IoT device.**
+     Information that may be necessary to provide include details and actions such as:
+
      - Providing detailed instructions and guidance for establishing activities performed by the IoT device that do not require identification or authentication.
         <details><summary style="display:list-item;" markdown='span'> _Examples_ </summary>
 
@@ -200,9 +209,12 @@ The term &quot;establish communications&quot; is used throughout this section to
 
          - _When visitors need to be able to access certain IoT devices without needing to authenticate, such as when asking the IoT device for the location of a doctor&#39;s office within a health clinic._<br/>
         </details>
-  <br/>
-  5. **Cybersecurity State Awareness: Establish communications explaining how to provide monitoring information to authorized personnel or roles.**<br/><br/>
-   Information that may be necessary to provide to support customer&#39;s needs to provide monitoring reports to specific roles within their organization include details and actions such as:
+  
+
+  5. **Cybersecurity State Awareness: Establish communications explaining how to provide monitoring information to authorized personnel or roles.**
+
+     Information that may be necessary to provide to support customer&#39;s needs to provide monitoring reports to specific roles within their organization include details and actions such as:
+
      - Providing information that describes the types of system monitoring information generated from, or associated with, the IoT device and instructions for obtaining that information.
         <details><summary style="display:list-item;" markdown='span'> _Example_ </summary>
 
@@ -210,9 +222,12 @@ The term &quot;establish communications&quot; is used throughout this section to
         </details>
      - Providing documentation describing the types of monitoring tools with which the IoT device is compatible, and recommendations for how to configure the IoT device to best work with such monitoring tools.
 
- **d. Data created and handled by the device**<br/>
-  1. **Cybersecurity State Awareness: Establish communications describing how the IoT device cybersecurity event data is protected from unauthorized access, modification, and deletion.**<br/><br/>
-   Information that may be necessary to provide include details and actions such as:
+ **d. Data created and handled by the device**
+
+  1. **Cybersecurity State Awareness: Establish communications describing how the IoT device cybersecurity event data is protected from unauthorized access, modification, and deletion.**
+
+     Information that may be necessary to provide include details and actions such as:
+
      - Providing documentation and/or other communications describing how to implement management and operational controls to protect data, obtained from IoT devices, and associated systems and intrusion-monitoring tools, from unauthorized access, modification, and deletion.
         <details><summary style="display:list-item;" markdown='span'> _Example_ </summary>
 
@@ -223,9 +238,12 @@ The term &quot;establish communications&quot; is used throughout this section to
 
          - _Times and dates a smart coffee maker was used, and the temperature settings for the coffee for each use._<br/>
         </details>
-  <br/>
-  2. **Data Protection: Establish communications describing capabilities supporting IoT device data integrity, secure data handling and data retention.**<br/><br/>
-   Information that may be necessary to provide include details and actions such as:
+  
+
+  2. **Data Protection: Establish communications describing capabilities supporting IoT device data integrity, secure data handling and data retention.**
+
+     Information that may be necessary to provide include details and actions such as:
+
      - Providing communications to IoT device customers describing how to implement management and operational controls to protect IoT device data integrity and associated systems data integrity.
         <details><summary style="display:list-item;" markdown='span'> _Examples_ </summary>
 
@@ -245,9 +263,12 @@ The term &quot;establish communications&quot; is used throughout this section to
      - Providing documentation describing how to irreversibly delete data from the IoT device.
      - Providing detailed instructions for how to protect device data from being accidentally modified.
 
- **e. Assumed cybersecurity requirements for the IoT device**<br/>
-  1. **Device Acquisition and Maintenance: Establish documentation describing IoT device security requirements that can be used to support customers&#39; organizational mission, business process planning, and IoT device acquisitions requirements.**<br/><br/>
-   Documentation of basic IoT device cybersecurity requirements, for the device capabilities, as well as for device development and supply chain entities with access to the device, information helps potential IoT device customers to make purchase decisions that support their organization&#39;s requirements for these issues. To support these needs, include details within documentation and associated actions such as:
+ **e. Assumed cybersecurity requirements for the IoT device**
+
+  1. **Device Acquisition and Maintenance: Establish documentation describing IoT device security requirements that can be used to support customers&#39; organizational mission, business process planning, and IoT device acquisitions requirements.**
+   
+     Documentation of basic IoT device cybersecurity requirements, for the device capabilities, as well as for device development and supply chain entities with access to the device, information helps potential IoT device customers to make purchase decisions that support their organization&#39;s requirements for these issues. To support these needs, include details within documentation and associated actions such as:
+
      - Providing detailed information describing the resources necessary for each type of security capability used with the IoT device.
         <details><summary style="display:list-item;" markdown='span'> _Example_ </summary>
 
@@ -265,9 +286,12 @@ The term &quot;establish communications&quot; is used throughout this section to
         </details>
      - Providing documentation that clearly details the IoT device security and privacy capabilities and limitations, the specific types of manufacturer support that will be provided throughout the life of the device, supported operating systems compatible with the IoT device, and other information pertinent to the use and security of the device.
 
- **f. Laws and regulations the IoT device and related support activities comply with.**<br/>
-  1. **Device Security: Establish documentation and communications describing the types of legal compliance the IoT device supports.**<br/><br/>
-   Information that may be necessary to provide to support customer legal compliance needs, include details and actions such as:
+ **f. Laws and regulations the IoT device and related support activities comply with.**
+
+  1. **Device Security: Establish documentation and communications describing the types of legal compliance the IoT device supports.**
+
+     Information that may be necessary to provide to support customer legal compliance needs, include details and actions such as:
+
      - Providing documentation describing the legal (Federal regulations, state and local laws) requirements for security and privacy controls that the IoT device supports.
         <details><summary style="display:list-item;" markdown='span'> _Examples_ </summary>
 
@@ -276,18 +300,24 @@ The term &quot;establish communications&quot; is used throughout this section to
      - Providing information describing how the manufacturer stays up-to-date with regulations, laws, and other legal requirements and standards that apply to IoT devices.
      - Providing white papers and use cases of existing IoT device customers describing how they used the IoT device in ways that supported their legal compliance requirements needs.
 
- **g. Expected lifespan, anticipated cybersecurity costs related to the IoT device (e.g., price of maintenance), and term of support**<br/>
-  1. **Device Acquisition and Maintenance: Establish communications and documentation that detail the expected lifespan of the device, the expected time for supporting the device, the costs for maintaining the device, the costs for device parts replacements, costs for device repairs, and other costs related to using the IoT device.**<br/><br/>
-   Information that may be necessary to provide include details and actions such as:
+ **g. Expected lifespan, anticipated cybersecurity costs related to the IoT device (e.g., price of maintenance), and term of support**
+
+  1. **Device Acquisition and Maintenance: Establish communications and documentation that detail the expected lifespan of the device, the expected time for supporting the device, the costs for maintaining the device, the costs for device parts replacements, costs for device repairs, and other costs related to using the IoT device.**
+
+     Information that may be necessary to provide include details and actions such as:
+
      - Providing detailed information about the anticipated costs associated with the IoT device purchase, usage activities, repairs, maintenance, parts, operations, security, and disposal costs throughout the potential lifetime of the IoT device.
         <details><summary style="display:list-item;" markdown='span'> _Example_ </summary>
 
          - _Most organizations must establish a discrete line item for IoT device information security costs within the organizational programming and budgeting documentation._
         </details>
 
- **h. Obligations for manufacturer oversight of their IoT device supporting entities (third-parties, contractors, vendors, resellers, supply chain entities)**<br/>
-  1. **Device Security: Establish communications that describes the manufacturer&#39;s third party, contractor, and vendor IoT device security oversight, and for including security and privacy requirements within contractual agreements.**<br/><br/>
-   Information that may be necessary to provide to explain supply chain risk management include details and actions such as:
+ **h. Obligations for manufacturer oversight of their IoT device supporting entities (third-parties, contractors, vendors, resellers, supply chain entities)**
+
+  1. **Device Security: Establish communications that describes the manufacturer&#39;s third party, contractor, and vendor IoT device security oversight, and for including security and privacy requirements within contractual agreements.**
+
+     Information that may be necessary to provide to explain supply chain risk management include details and actions such as:
+
      - Communications, detailed descriptions, methods, techniques, and/or policies the manufacturer uses to monitor IoT device activities and associated systems security control compliance by external service providers on an ongoing basis.
        <details><summary style="display:list-item;" markdown='span'> _Example_ </summary>
 
@@ -317,9 +347,12 @@ The term &quot;establish communications&quot; is used throughout this section to
 
            - _IoT device customers will often need to include this type of information within their organization&#39;s system devices logging and auditing procedures._
           </details>        
-       - Communicating the manufacturer&#39;s procedure for how customers can provide feedback when the manufacturer&#39;s supply chain security management and logging practices do not meet established compliance requirements of IoT device customers&#39; external service providers.<br/><br/>
-  2. **Device Security: Establish communications detailing the security and privacy requirements the manufacturer includes within their supporting entity contractual agreements that cover access to, and/or use of, the IoT device by third parties.**<br/><br/>
-   Information that may be necessary to provide include details and actions such as:
+       - Communicating the manufacturer&#39;s procedure for how customers can provide feedback when the manufacturer&#39;s supply chain security management and logging practices do not meet established compliance requirements of IoT device customers&#39; external service providers.
+
+  2. **Device Security: Establish communications detailing the security and privacy requirements the manufacturer includes within their supporting entity contractual agreements that cover access to, and/or use of, the IoT device by third parties.**
+   
+     Information that may be necessary to provide include details and actions such as:
+
      - Providing within the IoT device customer contracts a description and listing of the third parties used by the manufacturers that will have access to the IoT device and/or the data collected, generated, accessed, processed, or shared through the device, and a description of the associated security and privacy controls established for such third parties.
      - Providing documentation detailing all the cloud services used to support the IoT device.
      - Providing a detailed description of all logical interfaces to the IoT device and documenting the interfaces used by the manufacturer&#39;s third parties, and the purposes for such uses.
@@ -337,21 +370,27 @@ The term &quot;establish communications&quot; is used throughout this section to
      - Providing a detailed description for the ways in which the manufacturer and/or the manufacturer&#39;s listed supporting entities, will be accessing and making modifications to the IoT device throughout the expected or typical lifespan of the IoT device.
      - Providing a description to Federal agencies for how the IoT device supports the Federal Risk and Authorization Management Program (FedRAMP) requirements.
 
-## 2.) &nbsp;&nbsp;Document the technical cybersecurity capabilities, such as those detailed within NISTIR 8259A and within the full IoT cybersecurity technical catalog, that are implemented within the IoT device and how to configure and use them.<br/> 
+## 2.) &nbsp;&nbsp;Document the technical cybersecurity capabilities, such as those detailed within NISTIR 8259A and within the full IoT cybersecurity technical catalog, that are implemented within the IoT device and how to configure and use them.
 {: #Doc2 }
  NISTIR 8259A discusses technical device cybersecurity capabilities, which are cybersecurity features or functions that computing devices provide through their own technical means (i.e., device hardware and software), and establishes a core baseline of device cybersecurity capabilities needed by many IoT device customers. This section of capabilities includes non-technical communications and actions to explain how to most effectively use the technical abilities of an IoT device. Such information will help IoT device customers understand how to configure and implement the technical IoT device cybersecurity capabilities to limit the risks the IoT device brings to their systems. It will also help IoT device customers to comply with their associated legal requirements, and support their organizational purchasing requirements.
 
- **a. Monitoring, diagnostics and legal requirements**<br/>
-  1. **Device Acquisition and Maintenance: Establish communications detailing the ways in which the IoT device capabilities connect to and communicate with diagnostic tools used by the manufacturer and/or supporting entities to support customers&#39; legal requirements.**<br/><br/>
-   Information and documentation that may be necessary to provide about the IoT device technical capabilities include details and actions such as:
+ **a. Monitoring, diagnostics and legal requirements**
+
+  1. **Device Acquisition and Maintenance: Establish communications detailing the ways in which the IoT device capabilities connect to and communicate with diagnostic tools used by the manufacturer and/or supporting entities to support customers&#39; legal requirements.**
+   
+     Information and documentation that may be necessary to provide about the IoT device technical capabilities include details and actions such as:
+
      - Providing the details necessary for IoT device customers to implement only organizationally-approved IoT device diagnostic tools within their system.
         <details><summary style="display:list-item;" markdown='span'> _Example_ </summary>
 
          - _IoT device customers need this information to support their internal security policies and legal requirements for using only approved IoT device diagnostic tools._
         </details>
-     - Providing detailed documentation describing the tools manufacturers require for IoT device diagnostics activities.<br/><br/>
-  2. **Cybersecurity State Awareness: Establish communications explaining how to use monitoring systems, possible monitoring activities, the use of devices and tools, and descriptions of security level changes.**<br/><br/>
-   Information that may be necessary to provide include details and actions such as:
+     - Providing detailed documentation describing the tools manufacturers require for IoT device diagnostics activities.
+
+  2. **Cybersecurity State Awareness: Establish communications explaining how to use monitoring systems, possible monitoring activities, the use of devices and tools, and descriptions of security level changes.**
+
+     Information that may be necessary to provide include details and actions such as:
+
      - Providing the details necessary for IoT device customers to monitor IoT devices and associated systems.
      - Providing documentation to IoT device customers describing how to perform monitoring activities.
         <details><summary style="display:list-item;" markdown='span'> _Examples_ </summary>
@@ -371,26 +410,35 @@ The term &quot;establish communications&quot; is used throughout this section to
      - Providing documentation to IoT device customers describing how to implement and securely deploy monitoring devices and tools for IoT devices and associated systems.
      - Providing documentation to IoT device customers describing how and when to heighten the level of security for an IoT device and associated systems.
      - Providing documentation to IoT device customers describing how to use the security controls and monitoring capabilities built within the IoT device, and how to configure the device to best fit the risk levels within the systems where they are used.
-     - Providing the details necessary to implement management and operational controls for when and how to generate internal security alerts, advisories, and directives about the IoT devices.<br/><br/>
-  3. **Data Protection: Establish communications to provide the IoT device customers with the details necessary to establish and modify IoT device data integrity controls.**<br/><br/>
-   Information that may be necessary to provide include details and actions such as:
+     - Providing the details necessary to implement management and operational controls for when and how to generate internal security alerts, advisories, and directives about the IoT devices.
+
+  3. **Data Protection: Establish communications to provide the IoT device customers with the details necessary to establish and modify IoT device data integrity controls.**
+
+     Information that may be necessary to provide include details and actions such as:
+
      - Providing IoT device customers with the details necessary to support secure implementation of the IoT device and associated systems data integrity controls.
-     - Providing IoT device customers with documentation describing the data integrity controls built into the IoT device and how to use them. If there are no data integrity controls built into the IoT device, include documentation explaining to IoT device customers the ways to achieve IoT device data integrity.<br/><br/>
-  4. **Device Identity: Establish communications describing how to establish unique identification for the IoT device.**<br/><br/>
-   Information that may be necessary to provide, as determined by the manufacturer&#39;s assessment of cybersecurity risk created by the IoT device, include details and actions such as:
+     - Providing IoT device customers with documentation describing the data integrity controls built into the IoT device and how to use them. If there are no data integrity controls built into the IoT device, include documentation explaining to IoT device customers the ways to achieve IoT device data integrity.
+
+  4. **Device Identity: Establish communications describing how to establish unique identification for the IoT device.**
+
+     Information that may be necessary to provide, as determined by the manufacturer&#39;s assessment of cybersecurity risk created by the IoT device, include details and actions such as:
+
      - Providing details for how to establish unique identification for each IoT device associated with the system and critical system components within which it is used.
         <details><summary style="display:list-item;" markdown='span'> _Example_ </summary>
 
          - _IoT device customers must often comply with their applicable organizational security policies and legal requirements for using unique identification for each IoT device associated with the system and critical system components within which it is used._
         </details>
 
-## 3.) &nbsp;&nbsp;Document device design and support considerations related to the IoT device.<br/> 
+## 3.) &nbsp;&nbsp;Document device design and support considerations related to the IoT device.
 {: #Doc3 }
  This section of capabilities includes documentation describing the design of the device and associated cybersecurity capabilities, such as how IoT platforms were used in the development of the device. This section also provides details about the support for secure use of the IoT device by customers that will be necessary, including documentation for the supporting entities involved with support activities throughout the manufacturer&#39;s supply chain. Such documentation may also be important to meet the organization&#39;s purchasing requirements, to support audits, or to qualify for specific certifications that some customers may require for IoT devices they use.
 
- **a. IoT platform used in the development of the IoT device, and related documentation**<br/>
-  1. **Logical Access to Interfaces: Establish communications**  **with**  **detailed instructions for using authentication techniques supported by IoT platforms.**<br/><br/>
-   An IoT platform is typically a third-party vendor provided/hosted SaaS-based tool that is used to support IoT device and endpoint management, connectivity and network management, data management, processing and analysis, application development, security, access control, monitoring, event processing and interfacing/integration. Documentation about such a third-party can provide important information about supply chain security practices and vulnerabilities to allow for the IoT user to more accurately determine risks related to the use of an IoT platform. Information that may be necessary to provide include details and actions such as:
+ **a. IoT platform used in the development of the IoT device, and related documentation**
+
+  1. **Logical Access to Interfaces: Establish communications with detailed instructions for using authentication techniques supported by IoT platforms.**
+
+     An IoT platform is typically a third-party vendor provided/hosted SaaS-based tool that is used to support IoT device and endpoint management, connectivity and network management, data management, processing and analysis, application development, security, access control, monitoring, event processing and interfacing/integration. Documentation about such a third-party can provide important information about supply chain security practices and vulnerabilities to allow for the IoT user to more accurately determine risks related to the use of an IoT platform. Information that may be necessary to provide include details and actions such as:
+
      - Providing documentation describing the specific IoT platforms used with the device to support required IoT authentication control techniques.
         <details><summary style="display:list-item;" markdown='span'> _Examples_ </summary>
 
@@ -406,8 +454,11 @@ The term &quot;establish communications&quot; is used throughout this section to
         </details>
 
  **b. Protection of software and hardware components of the IoT device**
-  1. **Device Security: Establish communications that provide details about the security capabilities of the IoT device software components.**<br/><br/>
-   Information that may be necessary to provide describing the technical security capabilities include details and actions such as:
+
+  1. **Device Security: Establish communications that provide details about the security capabilities of the IoT device software components.**
+
+     Information that may be necessary to provide describing the technical security capabilities include details and actions such as:
+
      - Providing details about how the security capabilities of the IoT device software components meet regulatory and other legal and policy requirements.
         <details><summary style="display:list-item;" markdown='span'> _Examples_ </summary>
 
@@ -415,7 +466,9 @@ The term &quot;establish communications&quot; is used throughout this section to
          - _Organizations outside the federal government have their own corporate security policies, and legal requirements, for which they must comply that require they_ _meet IoT device software security functional requirements, security strength requirements, security assurance requirements, security-related documentation requirements, requirements for protecting security-related documentation, descriptions of the information system development environment and environment in which the IoT device and associated system is intended to operate, and acceptance criteria in the acquisition contracts for every IoT device system, system component, or information system service in accordance with applicable Federal and international laws, directives, policies, regulations, standards, guidelines, and organizational mission/business needs._
          - _Organizations must often provide information to their internal and external auditors and regulatory assessors that provide this kind of information. Because of this, organizations often require such information to be obtained and reviewed before approving acquisition for all types of computing devices, including IoT devices._<br/><br/>
         </details>
-  2. **Device Security: Establish communications for the IoT device customers with details for the security capabilities of the hardware components.**<br/><br/>
+
+  2. **Device Security: Establish communications for the IoT device customers with details for the security capabilities of the hardware components.**
+
       - Providing the IoT device customers with details about the security capabilities of the IoT device hardware components.
          <details><summary style="display:list-item;" markdown='span'> _Examples_ </summary>
 
@@ -424,9 +477,12 @@ The term &quot;establish communications&quot; is used throughout this section to
           - _Some organizations require a hardware-validated boot process that ensures the first executable code starts from an immutable source. For example, through the establishment of a Root of Trust. Information related to this is often requested from organizations for their computing devices._
          </details>
 
- **c. Secure software development and supply chain practices used**<br/>
-  1. **Device Security: Establish communications providing IoT device management details that can be incorporated within the IoT device customer&#39;s system development life cycle.**<br/><br/>
-   Information that may be necessary to provide about IoT device security management include details and actions such as:
+ **c. Secure software development and supply chain practices used**
+
+  1. **Device Security: Establish communications providing IoT device management details that can be incorporated within the IoT device customer&#39;s system development life cycle.**
+
+     Information that may be necessary to provide about IoT device security management include details and actions such as:
+
      - Providing the details necessary for customers to 1) manage the IoT device within their system using their organizationally-defined system development life cycle&#39;s associated information security considerations, 2) assign individuals with IoT device information security roles and responsibilities, and 3) integrate the IoT device within the organizational information security risk management process.
      - Providing communications and the detailed instructions for implementing a hierarchy of privilege levels to use with the IoT device and/or necessary associated information systems.
         <details><summary style="display:list-item;" markdown='span'> _Example_ </summary>
@@ -435,9 +491,12 @@ The term &quot;establish communications&quot; is used throughout this section to
         </details>
      - Providing communications with instructions and recommendations for how to incorporate IoT device management and associated security management, within the system development life cycle.
 
- **d. Accreditation, certification and/or evaluation results for cybersecurity-related practices**<br/>
-   1. **Device Security: Establish communications that provide details about the manufacturer&#39;s supply chain risk management process and the controls used within ongoing supply chain security assessment and authorization activities.**<br/><br/>
-    Information that may be necessary to provide about supply chain risk management include details and actions such as:
+ **d. Accreditation, certification and/or evaluation results for cybersecurity-related practices**
+
+   1. **Device Security: Establish communications that provide details about the manufacturer&#39;s supply chain risk management process and the controls used within ongoing supply chain security assessment and authorization activities.**
+
+      Information that may be necessary to provide about supply chain risk management include details and actions such as:
+
       - Providing documentation explaining how the manufacturer provides security oversight of their supporting entities, and how they assess the cybersecurity risks that those supporting entities present to the IoT devices and the systems within which they are implemented.
       - Providing documentation and information describing the security requirements included within the contractual requirements for the supporting entities. Such requirements may include implementing security practices, safeguards, access controls and assessments to provide oversight of the supporting entities&#39; activities.
          <details><summary style="display:list-item;" markdown='span'> _Examples_ </summary>
@@ -448,13 +507,16 @@ The term &quot;establish communications&quot; is used throughout this section to
       - Providing documentation describing the types of security and/or privacy certifications the manufacturer requires of their supporting entities.
 
  
-## 4.) &nbsp;&nbsp;Document maintenance requirements for the IoT device.<br/> 
+## 4.) &nbsp;&nbsp;Document maintenance requirements for the IoT device.
 {: #Doc4 }
  Documentation about maintenance requirements, especially involving supporting entities the manufacturer contracted to perform maintenance, device changes, etc., supports the customer&#39;s need to adequately plan for maintenance activities. This section of capabilities includes non-technical communications and actions that manufacturers provide to support the need for IoT customers to perform common and minimum necessary technical maintenance activities consistently, accurately, and most securely. Such documentation may also be necessary to meet the organization&#39;s purchasing requirements, security policies, to support audits, or to qualify for specific certifications that some customers may require for IoT devices they use.
 
- **a. Cybersecurity maintenance expectations and associated instructions or procedures for the customer**<br/>
-  1. **Device Acquisition and Maintenance: Establish communications describing the specifications and providing instructions for performing IoT device maintenance and repairs, for IoT device systems review, and for maintenance activities following trigger events.**<br/><br/>
-   Information that may be necessary to provide for device maintenance and repairs include details and actions such as:
+ **a. Cybersecurity maintenance expectations and associated instructions or procedures for the customer**
+
+  1. **Device Acquisition and Maintenance: Establish communications describing the specifications and providing instructions for performing IoT device maintenance and repairs, for IoT device systems review, and for maintenance activities following trigger events.**
+
+     Information that may be necessary to provide for device maintenance and repairs include details and actions such as:
+
      - Providing the details and instructions necessary to perform necessary IoT device maintenance activities and repairs.
         <details><summary style="display:list-item;" markdown='span'> _Examples_ </summary>
 
@@ -473,14 +535,20 @@ The term &quot;establish communications&quot; is used throughout this section to
      - Providing communications and documentation detailing how to perform account management activities, using the technical IoT device capabilities, or through supporting systems and/or tools.
      - Providing communications and documentation detailing how to perform recommended local and/or remote maintenance activities.
      - Providing communications and documentation detailing the manufacturer&#39;s recommended vulnerability and patch management plan.
-  2. **Data Protection: Establish communications with instructions for removing all data from IoT devices prior to maintenance and repairs.**<br/><br/>
-   Information that may be necessary to provide include details and actions such as:
+
+  2. **Data Protection: Establish communications with instructions for removing all data from IoT devices prior to maintenance and repairs.**
+
+     Information that may be necessary to provide include details and actions such as:
+
      - Providing IoT device customers the details necessary for them to know when and how to remove all data from IoT devices prior to removing the devices from facilities for offsite maintenance or repairs.
      - Providing information describing how to use the IoT device capabilities to remove all data from the device.
 
- **b. When maintenance will be performed by supporting entities that will need access (remote or onsite) to customer&#39;s IoT devices, and their information security contract requirements**<br/>
-  1. **Device Acquisition and Maintenance: Establish communications to provide the IoT device customers with the details necessary to support IoT device maintenance and diagnostic activities and documentation.**<br/><br/>
-   Information that may be necessary to provide include details and actions such as:
+ **b. When maintenance will be performed by supporting entities that will need access (remote or onsite) to customer&#39;s IoT devices, and their information security contract requirements**
+
+  1. **Device Acquisition and Maintenance: Establish communications to provide the IoT device customers with the details necessary to support IoT device maintenance and diagnostic activities and documentation.**
+
+     Information that may be necessary to provide include details and actions such as:
+
      - Providing the details necessary to enable IoT device customers to monitor onsite and offsite IoT device maintenance activities.
         <details><summary style="display:list-item;" markdown='span'> _Examples_ </summary>
 

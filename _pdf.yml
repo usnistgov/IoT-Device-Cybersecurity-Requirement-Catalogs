@@ -1,6 +1,6 @@
 pdf:
   - basedir: ""
-    filename: IoT-Device-Cybersecurity-Requirement-Catalogs
+    filename: Technical-Capabilities
     template: _pdftemplate/template.tex
     workdir: _pdf
     graphics: 
@@ -17,17 +17,17 @@ pdf:
               - _Frontmatter/introduction.md
         - name: body
           parts:
-              - _Technical/identity.md
-              - _Technical/configuration.md
-              - _Technical/protection.md
-              - _Technical/logical.md
-              - _Technical/update.md
-              - _Technical/event.md
-              - _Technical/security.md
-          part_template: _pdftemplate/sectionpart.tex
+             - _Technical/identity.md
+             - _Technical/configuration.md
+             - _Technical/protection.md
+             - _Technical/logical.md
+             - _Technical/update.md
+             - _Technical/state.md
+             - _Technical/security.md
+          part_template: _pdftemplate/section.tex
           template: _pdftemplate/body.tex
-    doi_url: 'https://pages.nist.gov/FederalProfile-8259A/'
-    issued_date: June 30, 2020
+    doi_url: 'https://pages.nist.gov/IoT-Device-Cybersecurity-Requirement-Catalogs/'
+    issued_date: June 30, 2021
     doc_number: Federal Profile of NISTIR 8259A
     page_doc_number: Federal Profile of NISTIR 8259A
     page_title: Technical Capabilities
@@ -35,7 +35,7 @@ pdf:
     pdf_title: 'Draft: Federal Profile of NISTIR 8259A: Technical Device Cybersecurity Capabilities needed to Support Federal Cybersecurity Controls'
     lineno: true
   - basedir: ""
-    filename: Federal-Profile-of-8259A-Non-Technical-Capabilities
+    filename: Non-Technical-Capabilities
     template: _pdftemplate/template.tex
     workdir: _pdf
     graphics: 
@@ -52,19 +52,14 @@ pdf:
               - _Frontmatter/introduction.md
         - name: body
           parts:
-              - _Nontechnical/introduction.md
-              - _Nontechnical/identity.md
-              - _Nontechnical/configuration.md
-              - _Nontechnical/protection.md
-              - _Nontechnical/logical.md
-              - _Nontechnical/update.md
-              - _Nontechnical/event.md
-              - _Nontechnical/security.md
-              - _Nontechnical/maintenance.md
-          part_template: _pdftemplate/sectionpart.tex
+             - _Nontechnical/manufacturer_documentation.md
+             - _Nontechnical/manufacturer_query.md
+             - _Nontechnical/manufacturer_information.md
+             - _Nontechnical/manufacturer_education.md
+          part_template: _pdftemplate/section.tex
           template: _pdftemplate/body.tex
-    doi_url: 'https://pages.nist.gov/FederalProfile-8259A/'
-    issued_date: June 30, 2020
+    doi_url: 'https://pages.nist.gov/IoT-Device-Cybersecurity-Requirement-Catalogs/'
+    issued_date: June 30, 2021
     doc_number: Federal Profile of NISTIR 8259A
     page_doc_number: Federal Profile of NISTIR 8259A
     page_title: Non-Technical Capabilities

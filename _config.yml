@@ -7,8 +7,9 @@ baseurl: "/IoT-Device-Cybersecurity-Requirement-Catalogs" # the subpath of your 
 markdown: kramdown
 kramdown:
   parse_block_html: true
--auto_ids: true
-
+  parse_span_html: true
+  auto_ids: true
+  
 exclude:
 - ".ruby-version"
 - ".jekyll-metadata"

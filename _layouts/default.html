@@ -8,15 +8,40 @@
 <ul style="width:100%;background-color:#f8f8f8;border-style:solid;border-color:black;border-width:thin;" id="results-container"></ul>
 </div>
 <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js" type="text/javascript"></script>
+<script src="//unpkg.com/string-similarity/umd/string-similarity.min.js"></script>
     <script type="text/javascript">
+
             SimpleJekyllSearch({
                 searchInput: document.getElementById('search-input'),
                 resultsContainer: document.getElementById('results-container'),
                 json: '{{ site.url }}{{ site.baseurl }}/search.json',
                 searchResultTemplate: '<li style="list-style:square;"><a style="font-size:16px;font-weight:bold;color:#0B3C5D" href="{url}" title="Search configuration">{title}</a></li>',
-            noResultsText: 'No results found.',
-                 limit: 10,
-                fuzzy: true,
+                sortMiddleware: function(a, b) {
+
+                  var input = String(document.getElementById("search-input").value).toLowerCase();
+
+                  var astr = String(a.title) + ' ' + String(a.content);
+                  var bstr = String(b.title) + ' ' + String(b.content);
+
+                  astr.toLowerCase();
+                  bstr.toLowerCase();
+
+                  var freqOne = astr.split(input).length - 1;
+                  var freqTwo = bstr.split(input).length - 1;
+
+		  var compOne = stringSimilarity.compareTwoStrings(input, astr);
+                  var compTwo = stringSimilarity.compareTwoStrings(input, bstr);
+
+		  if(freqOne === freqTwo){
+                     return (compOne > compTwo ? -1 : 1);
+                  }
+                  else { 
+                     return (freqOne > freqTwo ? -1 : 1);
+                  }
+
+                },
+                noResultsText: 'No results found.',
+                limit: 8
             })
     </script>
     <!--end search-->
@@ -28,6 +53,5 @@
 	  </div>
 	</div>
 </body>
-
 {% include NISTPagesFooter.html %}
 </html>

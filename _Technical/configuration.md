@@ -31,10 +31,11 @@ Ability to configure content to be displayed on a device.
 # Device Configuration Control
  
 Ability to change configurations on the IoT device based on operational events as described in Device Security and Cybersecurity Event Awareness.
--	Ability to change the device’s software configuration settings.
--	Ability for authorized entities to restore the device to a secure configuration defined by an authorized entity.
--	Configuration settings for use with the Device Configuration capability including, but not limited to: 
-    -	Ability for authorized entities to configure the cryptography use itself, such as choosing a key length. 
-    -	Ability to configure any remote update mechanisms to be either automatically or manually initiated for update downloads and installations. 
--	Ability to enable or disable notification when an update is available and specify who or what is to be notified.
+
+- Ability to change the device’s software configuration settings.
+- Ability for authorized entities to restore the device to a secure configuration defined by an authorized entity.
+- Configuration settings for use with the Device Configuration capability including, but not limited to: 
+- Ability for authorized entities to configure the cryptography use itself, such as choosing a key length. 
+  - Ability to configure any remote update mechanisms to be either automatically or manually initiated for update downloads and installations. 
+  - Ability to enable or disable notification when an update is available and specify who or what is to be notified.
 
