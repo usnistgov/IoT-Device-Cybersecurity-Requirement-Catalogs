@@ -20,12 +20,12 @@ Ability to support authentication methods.
 - Ability for the IoT device to support and require appropriate authentication.
   - Ability for the IoT device to require authentication prior to connecting to the device.
   - Ability for the IoT device to support a second, or more, authentication method(s) through an out of band path such as:
-   - Temporary passwords or other one-use logon credentials
-   - Third-party credential checks
-   - Biometrics
-   - Text messages
-   - Hard Tokens
-   - Manufacturer proprietary method
+    - Temporary passwords or other one-use logon credentials
+    - Third-party credential checks
+    - Biometrics
+    - Text messages
+    - Hard Tokens
+    - Manufacturer proprietary method
  - Ability for the IoT device to hide or mask authentication information during authentication process.
  - Ability for the IoT device to support a second, or more, authentication method(s) through an out-of-band path such as: Temporary passwords or other one-use credentials; Third-party credential checks; Biometrics; Text messages; Hard Tokens; etc.
  
