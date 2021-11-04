@@ -1,4 +1,9 @@
+#navbar-links a {
+ color: white 
+}
+
 #navbar-links a:hover {
+  background-color: #ccc
   color: black;
   text-decoration: none
 }
