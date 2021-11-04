@@ -1,5 +1,6 @@
-#navbar-links:hover,
-#navbar-links:focus {
+#navbar-links.a:hover,
+#navbar-links.a:focus,
+#navbar-links.a:visited {
   background: #ccc;
   color: black;
   text-decoration: none
