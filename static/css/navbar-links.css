@@ -1,5 +1,5 @@
-.navbar-links:hover,
-.navbar-links:focus {
+#navbar-links:hover,
+#navbar-links:focus {
   background: #ccc;
   color: #333;
 }
